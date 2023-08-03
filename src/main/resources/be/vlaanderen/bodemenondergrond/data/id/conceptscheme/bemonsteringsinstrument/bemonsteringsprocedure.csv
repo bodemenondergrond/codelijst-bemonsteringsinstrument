@@ -1,5 +1,0 @@
-"uri","type","dc.id","collection","notation","prefLabel","altLabel","broader","broaderTransitive","broadMatch","changeNote","closeMatch","definition","editorialNote","exactMatch","example","hiddenLabel","historyNote","inScheme","mappingRelation","note","related","relatedMatch","scopeNote","semanticRelation","topConceptOf"
-"colt:bemonsteringsinstrumenten","skos:Collection","bemonsteringsinstrumenten",,,"Collectie van bemonsteringsinstrumenten.",,,,,,,,,,,,,"cs:bemonsteringsinstrument",,,,,,,
-"cs:bemonsteringsinstrument","skos:ConceptScheme","bemonsteringsinstrument",,,"Codelijst bemonsteringsinstrument.",,,,,,,"Beschrijving welke procedure werd gevolgd bij de bemonstering.",,,,,,,,,,,,,
-"ct:bam","skos:Concept","bam","colt:bemonsteringsinstrumenten",,"Compendium BAM",,,,,,,,,,,,,"cs:bemonsteringsinstrument",,,,,,,"cs:bemonsteringsinstrument"
-"ct:boc","skos:Concept","boc","colt:bemonsteringsinstrumenten",,"Compendium BOC",,,,,,,,,,,,,"cs:bemonsteringsinstrument",,,,,,,"cs:bemonsteringsinstrument"
