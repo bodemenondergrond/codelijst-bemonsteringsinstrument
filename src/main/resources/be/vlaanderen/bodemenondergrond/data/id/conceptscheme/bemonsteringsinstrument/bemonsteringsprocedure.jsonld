@@ -1,0 +1,86 @@
+{
+    "@graph": [
+        {
+            "@id": "ct:boc",
+            "skos:topConceptOf": {
+                "@id": "cs:bemonsteringsinstrument"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Compendium BOC"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bemonsteringsinstrument"
+            },
+            "dc:identifier": "boc",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "cs:bemonsteringsinstrument",
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Codelijst bemonsteringsinstrument."
+            },
+            "skos:hasTopConcept": [
+                {
+                    "@id": "ct:boc"
+                },
+                {
+                    "@id": "ct:bam"
+                }
+            ],
+            "skos:definition": {
+                "@language": "nl",
+                "@value": "Beschrijving welke procedure werd gevolgd bij de bemonstering."
+            },
+            "dc:identifier": "bemonsteringsinstrument",
+            "@type": "skos:ConceptScheme"
+        },
+        {
+            "@id": "ct:bam",
+            "skos:topConceptOf": {
+                "@id": "cs:bemonsteringsinstrument"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Compendium BAM"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bemonsteringsinstrument"
+            },
+            "dc:identifier": "bam",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "colt:bemonsteringsinstrumenten",
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Collectie van bemonsteringsinstrumenten."
+            },
+            "skos:member": [
+                {
+                    "@id": "ct:boc"
+                },
+                {
+                    "@id": "ct:bam"
+                }
+            ],
+            "skos:inScheme": {
+                "@id": "cs:bemonsteringsinstrument"
+            },
+            "dc:identifier": "bemonsteringsinstrumenten",
+            "@type": "skos:Collection"
+        }
+    ],
+    "@context": {
+        "cs": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "ct": "https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/",
+        "dct": "http://purl.org/dc/terms/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "colt": "https://data.bodemenondergrond.vlaanderen.be/id/collection/bemonsteringsinstrument/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
+    }
+}

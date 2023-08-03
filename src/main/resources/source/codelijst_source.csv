@@ -1,0 +1,86 @@
+type,uri,dc.id,collection,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
+skos:ConceptScheme,cs:bemonsteringsinstrument,bemonsteringsinstrument,,,Codelijst bemonsteringsinstrument.,,,,,,,Beschrijving welke procedure werd gevolgd bij de bemonstering.,,,,,,,,,,,,,
+skos:Collection,colt:bemonsteringsinstrumenten,bemonsteringsinstrumenten,,,Collectie van bemonsteringsinstrumenten.,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,
+skos:Concept,ct:steekguts,steekguts,colt:bemonsteringsinstrumenten,,Steekguts,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:steekguts30mm,steekguts30mm,colt:bemonsteringsinstrumenten,,Steekguts 30mm,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:steekguts25mm,steekguts25mm,colt:bemonsteringsinstrumenten,,Steekguts 25mm,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:steekguts20mm,steekguts20mm,colt:bemonsteringsinstrumenten,,Steekguts 20mm,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:ring,ring,colt:bemonsteringsinstrumenten,,Ring,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:kopeckysteekset100cm3,kopeckysteekset100cm3,colt:bemonsteringsinstrumenten,,Kopecky steekset 100cm3,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:steekhuls,steekhuls,colt:bemonsteringsinstrumenten,,Steekhuls,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:steekhuls192cm3,steekhuls192cm3,colt:bemonsteringsinstrumenten,,Steekhuls 192cm3,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:steekbus,steekbus,colt:bemonsteringsinstrumenten,,Steekbus,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:dunwandig,dunwandig,colt:bemonsteringsinstrumenten,,Dunwandige steekbus,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:dunwandiggedrukt,dunwandiggedrukt,colt:bemonsteringsinstrumenten,,Dunwandige steekbus - gedrukt (OS-T/W-PU),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:dunwandiggeslagen,dunwandiggeslagen,colt:bemonsteringsinstrumenten,,Dunwandige steekbus - geslagen (OS-T/W-PE),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:dikwandig,dikwandig,colt:bemonsteringsinstrumenten,,Dikwandige steekbus,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:dikwandiggeslagen,dikwandiggeslagen,colt:bemonsteringsinstrumenten,,Dikwandig steekbus - geslagen (OS-T/W-PE),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:ackermansteekbus,ackermansteekbus,colt:bemonsteringsinstrumenten,,Ackerman steekbus,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:ackermangedrukt,ackermangedrukt,colt:bemonsteringsinstrumenten,,Ackerman steekbus - gedrukt,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:ackermangeslagen,ackermangeslagen,colt:bemonsteringsinstrumenten,,Ackerman steekbus - geslagen,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:buis,buis,colt:bemonsteringsinstrumenten,,Buis,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:enkelwandigkernbuis,enkelwandigkernbuis,colt:bemonsteringsinstrumenten,,Enkelwandige kernbuis (CS-ST),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:dubbelwandigekernbuis,dubbelwandigekernbuis,colt:bemonsteringsinstrumenten,,Dubbelwandige kernbuis (CS-DT),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:trippelwandigekernbuis,trippelwandigekernbuis,colt:bemonsteringsinstrumenten,,Trippelwandige kernbuis (CS-TT),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:aqualock,aqualock,colt:bemonsteringsinstrumenten,,Aqualock,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:piston,piston,colt:bemonsteringsinstrumenten,,Piston (PS),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:dunwandigepiston,dunwandigepiston,colt:bemonsteringsinstrumenten,,Dunwandige piston,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:dikwandigepiston,dikwandigepiston,colt:bemonsteringsinstrumenten,,Dikwandige piston,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:aqualockpiston,aqualockpiston,colt:bemonsteringsinstrumenten,,Aqualock,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:pvcaangescherpt30mm,pvcaangescherpt30mm,colt:bemonsteringsinstrumenten,,PVC aangescherpte buis 30mm,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:pomp,pomp,colt:bemonsteringsinstrumenten,,Pomp,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:zuigpomp,zuigpomp,colt:bemonsteringsinstrumenten,,Zuigpomp,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:slangenpomp,slangenpomp,colt:bemonsteringsinstrumenten,,Slangenpomp of Peristaltische pomp,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:bovcentrifugaalpomp,bovcentrifugaalpomp,colt:bemonsteringsinstrumenten,,Bovengrondse centrifugaalpomp,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:vacuumpomp,vacuumpomp,colt:bemonsteringsinstrumenten,,Vacuumpomp,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:perspomp,perspomp,colt:bemonsteringsinstrumenten,,Perspomp,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:balgpomp,balgpomp,colt:bemonsteringsinstrumenten,,Balgpomp (Gasdruksysteem),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:dubkleppomp,dubkleppomp,colt:bemonsteringsinstrumenten,,Dubbele kleppomp,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:pulsslang,pulsslang,colt:bemonsteringsinstrumenten,,Pulsslang (Kogelkleppomp),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:dompelpompond,dompelpompond,colt:bemonsteringsinstrumenten,,Dompelpomp (Onderwatercentrifugaalpomp),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:dompelpomp12v,dompelpomp12v,colt:bemonsteringsinstrumenten,,Dompelpomp (12V DCpompjes),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:boor,boor,colt:bemonsteringsinstrumenten,,Boor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:handboor,handboor,colt:bemonsteringsinstrumenten,,Handboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:lepelboor,lepelboor,colt:bemonsteringsinstrumenten,,Lepelboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:pulsboor,pulsboor,colt:bemonsteringsinstrumenten,,Pulsboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:spiraalboor,spiraalboor,colt:bemonsteringsinstrumenten,,Spiraalboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:spoelboor,spoelboor,colt:bemonsteringsinstrumenten,,Spoelboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:zuigboor,zuigboor,colt:bemonsteringsinstrumenten,,Zuigboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:zuigerboor,zuigerboor,colt:bemonsteringsinstrumenten,,Zuigerboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:kerboor,kerboor,colt:bemonsteringsinstrumenten,,Kernboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:enkkernbuis,enkkernbuis,colt:bemonsteringsinstrumenten,,Enkelwandige kernbuis (CS-ST),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:dubkernbuis,dubkernbuis,colt:bemonsteringsinstrumenten,,Dubbelwandige kernbuis (CS-DT),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:tripkernbuis,tripkernbuis,colt:bemonsteringsinstrumenten,,Trippelwandige kernbuis (CS-TT),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:ramkernboor,ramkernboor,colt:bemonsteringsinstrumenten,,Ramkernboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:luchthamer,luchthamer,colt:bemonsteringsinstrumenten,,Luchthamer,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:hamerboor,hamerboor,colt:bemonsteringsinstrumenten,,Hamerboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:avegaarbooras,avegaarbooras,colt:bemonsteringsinstrumenten,,Avergaarboor (AS),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:platavegaarboor,platavegaarboor,colt:bemonsteringsinstrumenten,,Platte avegaarboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:holavegaarboorhsas,holavegaarboorhsas,colt:bemonsteringsinstrumenten,,Holle avegaarboor (HSAS),,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:holavegaarboorlin,holavegaarboorlin,colt:bemonsteringsinstrumenten,,Holle avegaarboor met liner,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:slagboor,slagboor,colt:bemonsteringsinstrumenten,,Slagboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:trilboor,trilboor,colt:bemonsteringsinstrumenten,,Trilboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:steenboor,steenboor,colt:bemonsteringsinstrumenten,,Steenboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:lansboor,lansboor,colt:bemonsteringsinstrumenten,,Lansboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:grijpboor,grijpboor,colt:bemonsteringsinstrumenten,,Grijpboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:edelmanboor,edelmanboor,colt:bemonsteringsinstrumenten,,Edelmanboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:veenboor,veenboor,colt:bemonsteringsinstrumenten,,Veenboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:riversideboor,riversideboor,colt:bemonsteringsinstrumenten,,Riverside boor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:geoprobe,geoprobe,colt:bemonsteringsinstrumenten,,Geoprobe,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:ramguts,ramguts,colt:bemonsteringsinstrumenten,,Ramguts,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:ramgutslin,ramgutslin,colt:bemonsteringsinstrumenten,,Ramguts met liner,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:ramgutszlin,ramgutszlin,colt:bemonsteringsinstrumenten,,Ramguts zonder liner,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:rollenbeitel,rollenbeitel,colt:bemonsteringsinstrumenten,,Rollebeitel,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:luchthevel,luchthevel,colt:bemonsteringsinstrumenten,,Luchthevel,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:diamantboor,diamantboor,colt:bemonsteringsinstrumenten,,Diamantboor,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:vibrocore,vibrocore,colt:bemonsteringsinstrumenten,,Vibrocore,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:graafmachine,graafmachine,colt:bemonsteringsinstrumenten,,Graafmachine,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:spade,spade,colt:bemonsteringsinstrumenten,,Spade,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:schep,schep,colt:bemonsteringsinstrumenten,,Schep,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:watermonsternemer,watermonsternemer,colt:bemonsteringsinstrumenten,,Watermonsternemer,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:scheppot,scheppot,colt:bemonsteringsinstrumenten,,Scheppot,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:kraantje,kraantje,colt:bemonsteringsinstrumenten,,Kraantje,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:waterfles,waterfles,colt:bemonsteringsinstrumenten,,Waterfles,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:watertrap,watertrap,colt:bemonsteringsinstrumenten,,Watertrap,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:strooiselkader,strooiselkader,colt:bemonsteringsinstrumenten,,Strooiselkader,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:rvsstrooiselkader25cm,rvsstrooiselkader25cm,colt:bemonsteringsinstrumenten,,RVS Strooiselkader zijde 25cm,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
