@@ -11,6 +11,9 @@
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekguts">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Steekguts</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekguts30mm"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekguts25mm"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekguts20mm"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <dc:identifier>steekguts</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -108,6 +111,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Ackerman steekbus - gedrukt</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ackermansteekbus"/>
     <dc:identifier>ackermangedrukt</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -115,13 +119,17 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Zuigboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>zuigboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dunwandig">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Dunwandige steekbus</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dunwandiggedrukt"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dunwandiggeslagen"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekbus"/>
     <dc:identifier>dunwandig</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -129,26 +137,37 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Steekguts 30mm</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekguts"/>
     <dc:identifier>steekguts30mm</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/perspomp">
-    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
-    <skos:prefLabel xml:lang="nl">Perspomp</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
-    <dc:identifier>perspomp</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/balgpomp"/>
+    <dc:identifier>perspomp</dc:identifier>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/pulsslang"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dompelpompond"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/pomp"/>
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dompelpomp12v"/>
+    <skos:prefLabel xml:lang="nl">Perspomp</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dubkleppomp"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/aqualock">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Aqualock</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/buis"/>
     <dc:identifier>aqualock</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekbus">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Steekbus</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dunwandig"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dikwandig"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ackermansteekbus"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <dc:identifier>steekbus</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -156,14 +175,21 @@
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ackermansteekbus">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Ackerman steekbus</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ackermangedrukt"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ackermangeslagen"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekbus"/>
     <dc:identifier>ackermansteekbus</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/zuigpomp">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Zuigpomp</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/slangenpomp"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/bovcentrifugaalpomp"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/vacuumpomp"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/pomp"/>
     <dc:identifier>zuigpomp</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -171,6 +197,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Spoelboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>spoelboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -178,13 +205,17 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Dubbelwandige kernbuis (CS-DT)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kerboor"/>
     <dc:identifier>dubkernbuis</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ramguts">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Ramguts</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ramgutslin"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ramgutszlin"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>ramguts</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -192,19 +223,26 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Grijpboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>grijpboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/piston">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Piston (PS)</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dunwandigepiston"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dikwandigepiston"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/aqualockpiston"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/buis"/>
     <dc:identifier>piston</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/pomp">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Pomp</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/zuigpomp"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/perspomp"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <dc:identifier>pomp</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -213,6 +251,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Waterfles</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/watermonsternemer"/>
     <dc:identifier>waterfles</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -220,6 +259,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Trippelwandige kernbuis (CS-TT)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kerboor"/>
     <dc:identifier>tripkernbuis</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -227,6 +267,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Ramguts zonder liner</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ramguts"/>
     <dc:identifier>ramgutszlin</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -241,12 +282,14 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Kraantje</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/watermonsternemer"/>
     <dc:identifier>kraantje</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekhuls">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Steekhuls</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekhuls192cm3"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <dc:identifier>steekhuls</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -255,6 +298,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Luchthamer</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>luchthamer</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -262,20 +306,49 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Balgpomp (Gasdruksysteem)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/perspomp"/>
     <dc:identifier>balgpomp</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor">
-    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
-    <skos:prefLabel xml:lang="nl">Boor</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
-    <dc:identifier>boor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/avegaarbooras"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steenboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/spoelboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/edelmanboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/vibrocore"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/diamantboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/geoprobe"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/spiraalboor"/>
+    <dc:identifier>boor</dc:identifier>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/luchthevel"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/lepelboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/lansboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/riversideboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/veenboor"/>
+    <skos:prefLabel xml:lang="nl">Boor</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ramguts"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/trilboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/pulsboor"/>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/grijpboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/luchthamer"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/holavegaarboorhsas"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/slagboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/zuigerboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/rollenbeitel"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/handboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/zuigboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/hamerboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kerboor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/platavegaarboor"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekguts20mm">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Steekguts 20mm</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekguts"/>
     <dc:identifier>steekguts20mm</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -283,6 +356,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">RVS Strooiselkader zijde 25cm</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/strooiselkader"/>
     <dc:identifier>rvsstrooiselkader25cm</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -290,6 +364,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Lepelboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>lepelboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -297,6 +372,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Ramguts met liner</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ramguts"/>
     <dc:identifier>ramgutslin</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -304,6 +380,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Dikwandige piston</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/piston"/>
     <dc:identifier>dikwandigepiston</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -311,6 +388,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Ackerman steekbus - geslagen</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ackermansteekbus"/>
     <dc:identifier>ackermangeslagen</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -318,6 +396,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Enkelwandige kernbuis (CS-ST)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kerboor"/>
     <dc:identifier>enkkernbuis</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -325,6 +404,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Ramkernboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kerboor"/>
     <dc:identifier>ramkernboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -332,6 +412,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Edelmanboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>edelmanboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -339,6 +420,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Pulsslang (Kogelkleppomp)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/perspomp"/>
     <dc:identifier>pulsslang</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -346,6 +428,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Dunwandige steekbus - gedrukt (OS-T/W-PU)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dunwandig"/>
     <dc:identifier>dunwandiggedrukt</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -353,6 +436,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Trippelwandige kernbuis (CS-TT)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/buis"/>
     <dc:identifier>trippelwandigekernbuis</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -360,6 +444,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Veenboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>veenboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -367,13 +452,16 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Pulsboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>pulsboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/holavegaarboorhsas">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Holle avegaarboor (HSAS)</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/holavegaarboorlin"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>holavegaarboorhsas</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -381,12 +469,14 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Slagboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>slagboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ring">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Ring</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kopeckysteekset100cm3"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <dc:identifier>ring</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -395,6 +485,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Dubbele kleppomp</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/perspomp"/>
     <dc:identifier>dubkleppomp</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -402,6 +493,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Enkelwandige kernbuis (CS-ST)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/buis"/>
     <dc:identifier>enkelwandigkernbuis</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -409,6 +501,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Dubbelwandige kernbuis (CS-DT)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/buis"/>
     <dc:identifier>dubbelwandigekernbuis</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -502,30 +595,44 @@
     <skos:definition xml:lang="nl">Beschrijving welke procedure werd gevolgd bij de bemonstering.</skos:definition>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kerboor">
-    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Kernboor</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <dc:identifier>kerboor</dc:identifier>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dubkernbuis"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/tripkernbuis"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ramkernboor"/>
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/enkkernbuis"/>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kopeckysteekset100cm3">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Kopecky steekset 100cm3</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ring"/>
     <dc:identifier>kopeckysteekset100cm3</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/buis">
-    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Buis</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/pvcaangescherpt30mm"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dubbelwandigekernbuis"/>
     <dc:identifier>buis</dc:identifier>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/piston"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/aqualock"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/trippelwandigekernbuis"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/enkelwandigkernbuis"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dikwandig">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Dikwandige steekbus</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dikwandiggeslagen"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekbus"/>
     <dc:identifier>dikwandig</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -533,12 +640,14 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Hamerboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>hamerboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/strooiselkader">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Strooiselkader</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/rvsstrooiselkader25cm"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <dc:identifier>strooiselkader</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -547,6 +656,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Geoprobe</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>geoprobe</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -554,6 +664,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Scheppot</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/watermonsternemer"/>
     <dc:identifier>scheppot</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -561,6 +672,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Bovengrondse centrifugaalpomp</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/zuigpomp"/>
     <dc:identifier>bovcentrifugaalpomp</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -568,6 +680,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Slangenpomp of Peristaltische pomp</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/zuigpomp"/>
     <dc:identifier>slangenpomp</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -575,6 +688,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Steekhuls 192cm3</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekhuls"/>
     <dc:identifier>steekhuls192cm3</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -582,6 +696,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Trilboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>trilboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -589,6 +704,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Watertrap</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/watermonsternemer"/>
     <dc:identifier>watertrap</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -596,6 +712,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Aqualock</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/piston"/>
     <dc:identifier>aqualockpiston</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -603,6 +720,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Zuigerboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>zuigerboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -610,6 +728,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Dikwandig steekbus - geslagen (OS-T/W-PE)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dikwandig"/>
     <dc:identifier>dikwandiggeslagen</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -617,6 +736,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Steekguts 25mm</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekguts"/>
     <dc:identifier>steekguts25mm</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -630,6 +750,10 @@
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/watermonsternemer">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Watermonsternemer</skos:prefLabel>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/scheppot"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kraantje"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/waterfles"/>
+    <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/watertrap"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <dc:identifier>watermonsternemer</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -645,6 +769,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Dompelpomp (Onderwatercentrifugaalpomp)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/perspomp"/>
     <dc:identifier>dompelpompond</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -652,6 +777,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Vacuumpomp</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/zuigpomp"/>
     <dc:identifier>vacuumpomp</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -659,6 +785,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Platte avegaarboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>platavegaarboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -666,6 +793,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Dompelpomp (12V DCpompjes)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/perspomp"/>
     <dc:identifier>dompelpomp12v</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -673,6 +801,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Steenboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>steenboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -680,6 +809,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Riverside boor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>riversideboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -687,6 +817,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Rollebeitel</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>rollenbeitel</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -694,6 +825,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Dunwandige steekbus - geslagen (OS-T/W-PE)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dunwandig"/>
     <dc:identifier>dunwandiggeslagen</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -701,6 +833,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Diamantboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>diamantboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -708,6 +841,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Handboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>handboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -715,6 +849,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Avergaarboor (AS)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>avegaarbooras</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -722,6 +857,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Dunwandige piston</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/piston"/>
     <dc:identifier>dunwandigepiston</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -729,6 +865,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">PVC aangescherpte buis 30mm</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/buis"/>
     <dc:identifier>pvcaangescherpt30mm</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -736,6 +873,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Spiraalboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>spiraalboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -743,6 +881,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Holle avegaarboor met liner</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/holavegaarboorhsas"/>
     <dc:identifier>holavegaarboorlin</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -750,6 +889,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Luchthevel</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>luchthevel</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -757,6 +897,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Lansboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>lansboor</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
@@ -764,6 +905,7 @@
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:prefLabel xml:lang="nl">Vibrocore</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
+    <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>vibrocore</dc:identifier>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
