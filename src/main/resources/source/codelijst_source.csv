@@ -54,9 +54,9 @@ skos:Concept,ct:tripkernbuis,tripkernbuis,colt:bemonsteringsinstrumenten,,Trippe
 skos:Concept,ct:ramkernboor,ramkernboor,colt:bemonsteringsinstrumenten,,Ramkernboor,,ct:kerboor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:luchthamer,luchthamer,colt:bemonsteringsinstrumenten,,Luchthamer,,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:hamerboor,hamerboor,colt:bemonsteringsinstrumenten,,Hamerboor,,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
-skos:Concept,ct:avegaarbooras,avegaarbooras,colt:bemonsteringsinstrumenten,,Avergaarboor (AS),,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:avegaarbooras,avegaarbooras,colt:bemonsteringsinstrumenten,,Avergaarboor,,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:platavegaarboor,platavegaarboor,colt:bemonsteringsinstrumenten,,Platte avegaarboor,,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
-skos:Concept,ct:holavegaarboorhsas,holavegaarboorhsas,colt:bemonsteringsinstrumenten,,Holle avegaarboor (HSAS),,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:holavegaarboorhsas,holavegaarboorhsas,colt:bemonsteringsinstrumenten,,Holle avegaarboor,,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:holavegaarboorlin,holavegaarboorlin,colt:bemonsteringsinstrumenten,,Holle avegaarboor met liner,,ct:holavegaarboorhsas,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:slagboor,slagboor,colt:bemonsteringsinstrumenten,,Slagboor,,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:trilboor,trilboor,colt:bemonsteringsinstrumenten,,Trilboor,,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
