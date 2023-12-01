@@ -9,10 +9,6 @@
             "dcat:downloadURL": {
                 "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringsinstrument.0.1.1.bemonsteringsinstrument.ttl"
             },
-            "dcterms:issued": {
-                "@value": "2023-09-21",
-                "@type": "xsd:date"
-            },
             "dcterms:title": {
                 "@language": "nl",
                 "@value": "Codelijst bemonsteringsinstrument in Turtle rdf-formaat."
@@ -30,6 +26,10 @@
             "dcterms:description": {
                 "@language": "nl",
                 "@value": "Codelijst bemonsteringsinstrument, geserialiseerd in Turtle bestand."
+            },
+            "dcterms:issued": {
+                "@value": "2023-12-01",
+                "@type": "xsd:date"
             },
             "dcterms:accessRights": {
                 "@id": "access_right:PUBLIC"
@@ -123,6 +123,10 @@
             "dcterms:isVersionOf": {
                 "@id": "omg_dataset:codelijst-bemonsteringsinstrument"
             },
+            "dcterms:issued": {
+                "@value": "2023-12-01",
+                "@type": "xsd:date"
+            },
             "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-bemonsteringsinstrument.0.1.1",
             "dcat:contactPoint": {
                 "@id": "omg_id:vcard/helpdesk"
@@ -153,10 +157,6 @@
             },
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
-            },
-            "dcterms:issued": {
-                "@value": "2023-09-21",
-                "@type": "xsd:date"
             }
         },
         {
@@ -167,6 +167,10 @@
             "foaf:page": {
                 "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-bemonsteringsinstrument.0.1.1.bemonsteringsinstrument_xsd.html"
             },
+            "dcterms:issued": {
+                "@value": "2023-12-01",
+                "@type": "xsd:date"
+            },
             "dcat:downloadURL": {
                 "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringsinstrument.0.1.1.bemonsteringsinstrument.xsd"
             },
@@ -176,10 +180,6 @@
             },
             "dcterms:accessRights": {
                 "@id": "access_right:PUBLIC"
-            },
-            "dcterms:issued": {
-                "@value": "2023-09-21",
-                "@type": "xsd:date"
             },
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
@@ -216,6 +216,10 @@
                 "@language": "nl",
                 "@value": "Codelijst bemonsteringsinstrument in xml rdf-formaat."
             },
+            "dcterms:issued": {
+                "@value": "2023-12-01",
+                "@type": "xsd:date"
+            },
             "dcat:accessURL": {
                 "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringsinstrument.git"
             },
@@ -242,10 +246,6 @@
             },
             "dcat:mediaType": {
                 "@id": "https://www.iana.org/assignments/media-types/application/rdf+xml"
-            },
-            "dcterms:issued": {
-                "@value": "2023-09-21",
-                "@type": "xsd:date"
             },
             "dcterms:accessRights": {
                 "@id": "access_right:PUBLIC"
@@ -275,10 +275,6 @@
                 "@language": "nl",
                 "@value": "Package codelijst-bemonsteringsinstrument"
             },
-            "dcterms:issued": {
-                "@value": "2023-09-21",
-                "@type": "xsd:date"
-            },
             "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-bemonsteringsinstrument",
             "dcterms:title": {
                 "@language": "nl",
@@ -291,6 +287,10 @@
                 "@id": "file_type:JAR"
             },
             "spdx:versionInfo": "0.1.1",
+            "dcterms:issued": {
+                "@value": "2023-12-01",
+                "@type": "xsd:date"
+            },
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
             },
@@ -311,10 +311,6 @@
             "@id": "omg_distribution:codelijst-bemonsteringsinstrument.0.1.1.bemonsteringsinstrument_csv",
             "dcat:accessURL": {
                 "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringsinstrument.git"
-            },
-            "dcterms:issued": {
-                "@value": "2023-09-21",
-                "@type": "xsd:date"
             },
             "dcat:downloadURL": {
                 "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringsinstrument.0.1.1.bemonsteringsinstrument.csv"
@@ -343,6 +339,10 @@
             "foaf:page": {
                 "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-bemonsteringsinstrument.0.1.1.bemonsteringsinstrument_csv.html"
             },
+            "dcterms:issued": {
+                "@value": "2023-12-01",
+                "@type": "xsd:date"
+            },
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
             },
@@ -357,21 +357,21 @@
         },
         {
             "@id": "omg_distribution:codelijst-bemonsteringsinstrument.0.1.1.bemonsteringsinstrument_jsonld",
+            "dcat:accessURL": {
+                "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringsinstrument.git"
+            },
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
             },
-            "dcat:accessURL": {
-                "@id": "https://github.com/bodemenondergrond/codelijst-bemonsteringsinstrument.git"
+            "dcterms:issued": {
+                "@value": "2023-12-01",
+                "@type": "xsd:date"
             },
             "dcterms:identifier": {
                 "@id": "omg_distribution:codelijst-bemonsteringsinstrument.0.1.1.bemonsteringsinstrument_jsonld"
             },
             "dcterms:format": {
                 "@id": "file_type:JSON_LD"
-            },
-            "dcterms:issued": {
-                "@value": "2023-09-21",
-                "@type": "xsd:date"
             },
             "dc:identifier": "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-bemonsteringsinstrument.0.1.1.bemonsteringsinstrument_jsonld",
             "rdfs:label": {

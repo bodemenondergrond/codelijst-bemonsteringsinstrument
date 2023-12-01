@@ -65,7 +65,7 @@ ct:holavegaarboorhsas
         skos:broader       ct:boor ;
         skos:inScheme      cs:bemonsteringsinstrument ;
         skos:narrower      ct:holavegaarboorlin ;
-        skos:prefLabel     "Holle avegaarboor (HSAS)"@nl ;
+        skos:prefLabel     "Holle avegaarboor"@nl ;
         skos:topConceptOf  cs:bemonsteringsinstrument .
 
 ct:vibrocore  rdf:type     skos:Concept ;
@@ -579,7 +579,7 @@ ct:avegaarbooras  rdf:type  skos:Concept ;
         dc:identifier      "avegaarbooras" ;
         skos:broader       ct:boor ;
         skos:inScheme      cs:bemonsteringsinstrument ;
-        skos:prefLabel     "Avergaarboor (AS)"@nl ;
+        skos:prefLabel     "Avegaarboor"@nl ;
         skos:topConceptOf  cs:bemonsteringsinstrument .
 
 ct:steekbus  rdf:type      skos:Concept ;

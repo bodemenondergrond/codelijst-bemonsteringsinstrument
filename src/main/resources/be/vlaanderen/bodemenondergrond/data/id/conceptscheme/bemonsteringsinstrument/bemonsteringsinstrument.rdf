@@ -458,7 +458,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/holavegaarboorhsas">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
-    <skos:prefLabel xml:lang="nl">Holle avegaarboor (HSAS)</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Holle avegaarboor</skos:prefLabel>
     <skos:narrower rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/holavegaarboorlin"/>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
@@ -847,7 +847,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/avegaarbooras">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
-    <skos:prefLabel xml:lang="nl">Avergaarboor (AS)</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Avegaarboor</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/boor"/>
     <dc:identifier>avegaarbooras</dc:identifier>

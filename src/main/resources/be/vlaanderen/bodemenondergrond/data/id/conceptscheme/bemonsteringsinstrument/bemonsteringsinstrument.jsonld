@@ -693,7 +693,7 @@
             },
             "skos:prefLabel": {
                 "@language": "nl",
-                "@value": "Holle avegaarboor (HSAS)"
+                "@value": "Holle avegaarboor"
             },
             "skos:narrower": {
                 "@id": "ct:holavegaarboorlin"
@@ -2031,7 +2031,7 @@
             },
             "skos:prefLabel": {
                 "@language": "nl",
-                "@value": "Avergaarboor (AS)"
+                "@value": "Avegaarboor"
             },
             "skos:inScheme": {
                 "@id": "cs:bemonsteringsinstrument"
