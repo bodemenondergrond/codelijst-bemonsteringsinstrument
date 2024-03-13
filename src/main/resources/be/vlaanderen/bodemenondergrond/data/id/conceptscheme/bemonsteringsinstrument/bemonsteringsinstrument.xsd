@@ -21,7 +21,6 @@
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/pomp"/>
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/tripkernbuis"/>
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/steekhuls"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kraantje"/>
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/schep"/>
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ramgutszlin"/>
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/luchthamer"/>
@@ -45,6 +44,7 @@
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/ring"/>
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/slagboor"/>
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dubkleppomp"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kraan"/>
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/enkelwandigkernbuis"/>
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dubbelwandigekernbuis"/>
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kerboor"/>

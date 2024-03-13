@@ -79,7 +79,7 @@ skos:Concept,ct:spade,spade,colt:bemonsteringsinstrumenten,,Spade,,,,,,,,,,,,,cs
 skos:Concept,ct:schep,schep,colt:bemonsteringsinstrumenten,,Schep,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:watermonsternemer,watermonsternemer,colt:bemonsteringsinstrumenten,,Watermonsternemer,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:scheppot,scheppot,colt:bemonsteringsinstrumenten,,Scheppot,,ct:watermonsternemer,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
-skos:Concept,ct:kraantje,kraantje,colt:bemonsteringsinstrumenten,,Kraantje,,ct:watermonsternemer,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:kraan,kraan,colt:bemonsteringsinstrumenten,,Kraan,,ct:watermonsternemer,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:waterfles,waterfles,colt:bemonsteringsinstrumenten,,Waterfles,,ct:watermonsternemer,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:watertrap,watertrap,colt:bemonsteringsinstrumenten,,Watertrap,,ct:watermonsternemer,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:strooiselkader,strooiselkader,colt:bemonsteringsinstrumenten,,Strooiselkader,,,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument

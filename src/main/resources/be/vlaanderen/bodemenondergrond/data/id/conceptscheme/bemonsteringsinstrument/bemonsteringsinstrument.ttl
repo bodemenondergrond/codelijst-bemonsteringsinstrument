@@ -75,7 +75,7 @@ cs:bemonsteringsinstrument
         rdf:type            skos:ConceptScheme;
         dc:identifier       "bemonsteringsinstrument";
         skos:definition     "Beschrijving welke procedure werd gevolgd bij de bemonstering."@nl;
-        skos:hasTopConcept  ct:dikwandiggeslagen , ct:pulsslang , ct:spoelboor , ct:steekguts20mm , ct:balgpomp , ct:scheppot , ct:strooiselkader , ct:steekguts25mm , ct:ackermangeslagen , ct:dubkernbuis , ct:ramkernboor , ct:luchthevel , ct:steekhuls , ct:hamerboor , ct:aqualock , ct:buis , ct:steekguts30mm , ct:veenboor , ct:watertrap , ct:kraantje , ct:zuigerboor , ct:ramgutszlin , ct:holavegaarboorhsas , ct:trilboor , ct:ramguts , ct:schep , ct:platavegaarboor , ct:lansboor , ct:dikwandigepiston , ct:ackermangedrukt , ct:steekbus , ct:watermonsternemer , ct:ring , ct:ackermansteekbus , ct:pulsboor , ct:rollenbeitel , ct:geoprobe , ct:enkelwandigkernbuis , ct:ramgutslin , ct:spade , ct:dompelpomp12v , ct:dikwandig , ct:dunwandigepiston , ct:boor , ct:aqualockpiston , ct:pomp , ct:edelmanboor , ct:diamantboor , ct:bovcentrifugaalpomp , ct:steekguts , ct:handboor , ct:riversideboor , ct:steenboor , ct:piston , ct:trippelwandigekernbuis , ct:dubkleppomp , ct:dunwandiggeslagen , ct:pvcaangescherpt30mm , ct:zuigpomp , ct:dunwandig , ct:enkkernbuis , ct:luchthamer , ct:graafmachine , ct:lepelboor , ct:zuigboor , ct:waterfles , ct:grijpboor , ct:dubbelwandigekernbuis , ct:vibrocore , ct:rvsstrooiselkader25cm , ct:vacuumpomp , ct:kerboor , ct:holavegaarboorlin , ct:steekhuls192cm3 , ct:avegaarbooras , ct:tripkernbuis , ct:spiraalboor , ct:slangenpomp , ct:dunwandiggedrukt , ct:dompelpompond , ct:perspomp , ct:kopeckysteekset100cm3 , ct:slagboor;
+        skos:hasTopConcept  ct:dikwandiggeslagen , ct:pulsslang , ct:spoelboor , ct:steekguts20mm , ct:balgpomp , ct:scheppot , ct:strooiselkader , ct:steekguts25mm , ct:ackermangeslagen , ct:dubkernbuis , ct:ramkernboor , ct:luchthevel , ct:steekhuls , ct:hamerboor , ct:aqualock , ct:buis , ct:kraan , ct:steekguts30mm , ct:veenboor , ct:watertrap , ct:zuigerboor , ct:ramgutszlin , ct:holavegaarboorhsas , ct:trilboor , ct:ramguts , ct:schep , ct:platavegaarboor , ct:lansboor , ct:dikwandigepiston , ct:ackermangedrukt , ct:steekbus , ct:watermonsternemer , ct:ring , ct:ackermansteekbus , ct:pulsboor , ct:rollenbeitel , ct:geoprobe , ct:enkelwandigkernbuis , ct:ramgutslin , ct:spade , ct:dompelpomp12v , ct:dikwandig , ct:dunwandigepiston , ct:boor , ct:aqualockpiston , ct:pomp , ct:edelmanboor , ct:diamantboor , ct:bovcentrifugaalpomp , ct:steekguts , ct:handboor , ct:riversideboor , ct:steenboor , ct:piston , ct:trippelwandigekernbuis , ct:dubkleppomp , ct:dunwandiggeslagen , ct:pvcaangescherpt30mm , ct:zuigpomp , ct:dunwandig , ct:enkkernbuis , ct:luchthamer , ct:graafmachine , ct:lepelboor , ct:zuigboor , ct:waterfles , ct:grijpboor , ct:dubbelwandigekernbuis , ct:vibrocore , ct:rvsstrooiselkader25cm , ct:vacuumpomp , ct:kerboor , ct:holavegaarboorlin , ct:steekhuls192cm3 , ct:avegaarbooras , ct:tripkernbuis , ct:spiraalboor , ct:slangenpomp , ct:dunwandiggedrukt , ct:dompelpompond , ct:perspomp , ct:kopeckysteekset100cm3 , ct:slagboor;
         skos:prefLabel      "Codelijst bemonsteringsinstrument."@nl .
 
 ct:dunwandigepiston  rdf:type  skos:Concept;
@@ -247,13 +247,6 @@ ct:pulsboor  rdf:type      skos:Concept;
         skos:prefLabel     "Pulsboor"@nl;
         skos:topConceptOf  cs:bemonsteringsinstrument .
 
-ct:kraantje  rdf:type      skos:Concept;
-        dc:identifier      "kraantje";
-        skos:broader       ct:watermonsternemer;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Kraantje"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
 ct:kerboor  rdf:type       skos:Concept;
         dc:identifier      "kerboor";
         skos:broader       ct:boor;
@@ -401,7 +394,7 @@ ct:zuigerboor  rdf:type    skos:Concept;
 ct:watermonsternemer  rdf:type  skos:Concept;
         dc:identifier      "watermonsternemer";
         skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:watertrap , ct:waterfles , ct:kraantje , ct:scheppot;
+        skos:narrower      ct:watertrap , ct:waterfles , ct:kraan , ct:scheppot;
         skos:prefLabel     "Watermonsternemer"@nl;
         skos:topConceptOf  cs:bemonsteringsinstrument .
 
@@ -467,7 +460,7 @@ colt:bemonsteringsinstrumenten
         rdf:type        skos:Collection;
         dc:identifier   "bemonsteringsinstrumenten";
         skos:inScheme   cs:bemonsteringsinstrument;
-        skos:member     ct:grijpboor , ct:buis , ct:scheppot , ct:trippelwandigekernbuis , ct:ackermansteekbus , ct:holavegaarboorlin , ct:schep , ct:enkkernbuis , ct:vacuumpomp , ct:dubkleppomp , ct:ramguts , ct:ring , ct:spade , ct:steekguts30mm , ct:aqualock , ct:strooiselkader , ct:zuigboor , ct:steekguts25mm , ct:pulsslang , ct:dompelpompond , ct:veenboor , ct:boor , ct:avegaarbooras , ct:steekhuls192cm3 , ct:kopeckysteekset100cm3 , ct:steekhuls , ct:edelmanboor , ct:trilboor , ct:dikwandigepiston , ct:dikwandig , ct:ackermangeslagen , ct:ramgutszlin , ct:luchthamer , ct:lansboor , ct:bovcentrifugaalpomp , ct:geoprobe , ct:zuigerboor , ct:slangenpomp , ct:dubkernbuis , ct:kraantje , ct:steenboor , ct:slagboor , ct:piston , ct:dompelpomp12v , ct:dikwandiggeslagen , ct:steekguts , ct:pvcaangescherpt30mm , ct:dunwandigepiston , ct:riversideboor , ct:ramkernboor , ct:ramgutslin , ct:spiraalboor , ct:dunwandig , ct:balgpomp , ct:kerboor , ct:rollenbeitel , ct:pulsboor , ct:tripkernbuis , ct:waterfles , ct:platavegaarboor , ct:perspomp , ct:rvsstrooiselkader25cm , ct:pomp , ct:handboor , ct:luchthevel , ct:holavegaarboorhsas , ct:enkelwandigkernbuis , ct:dunwandiggedrukt , ct:graafmachine , ct:ackermangedrukt , ct:steekguts20mm , ct:zuigpomp , ct:spoelboor , ct:aqualockpiston , ct:diamantboor , ct:watermonsternemer , ct:watertrap , ct:lepelboor , ct:hamerboor , ct:dubbelwandigekernbuis , ct:vibrocore , ct:dunwandiggeslagen , ct:steekbus;
+        skos:member     ct:grijpboor , ct:buis , ct:scheppot , ct:trippelwandigekernbuis , ct:ackermansteekbus , ct:holavegaarboorlin , ct:schep , ct:enkkernbuis , ct:vacuumpomp , ct:dubkleppomp , ct:ramguts , ct:ring , ct:spade , ct:steekguts30mm , ct:aqualock , ct:strooiselkader , ct:zuigboor , ct:steekguts25mm , ct:pulsslang , ct:dompelpompond , ct:veenboor , ct:boor , ct:avegaarbooras , ct:steekhuls192cm3 , ct:kopeckysteekset100cm3 , ct:steekhuls , ct:edelmanboor , ct:trilboor , ct:dikwandigepiston , ct:dikwandig , ct:ackermangeslagen , ct:ramgutszlin , ct:luchthamer , ct:lansboor , ct:bovcentrifugaalpomp , ct:geoprobe , ct:zuigerboor , ct:slangenpomp , ct:dubkernbuis , ct:steenboor , ct:slagboor , ct:piston , ct:kraan , ct:dompelpomp12v , ct:dikwandiggeslagen , ct:steekguts , ct:pvcaangescherpt30mm , ct:dunwandigepiston , ct:riversideboor , ct:ramkernboor , ct:ramgutslin , ct:spiraalboor , ct:dunwandig , ct:balgpomp , ct:kerboor , ct:rollenbeitel , ct:pulsboor , ct:tripkernbuis , ct:waterfles , ct:platavegaarboor , ct:perspomp , ct:rvsstrooiselkader25cm , ct:pomp , ct:handboor , ct:luchthevel , ct:holavegaarboorhsas , ct:enkelwandigkernbuis , ct:dunwandiggedrukt , ct:graafmachine , ct:ackermangedrukt , ct:steekguts20mm , ct:zuigpomp , ct:spoelboor , ct:aqualockpiston , ct:diamantboor , ct:watermonsternemer , ct:watertrap , ct:lepelboor , ct:hamerboor , ct:dubbelwandigekernbuis , ct:vibrocore , ct:dunwandiggeslagen , ct:steekbus;
         skos:prefLabel  "Collectie van bemonsteringsinstrumenten."@nl .
 
 ct:lepelboor  rdf:type     skos:Concept;
@@ -526,6 +519,13 @@ ct:ramkernboor  rdf:type   skos:Concept;
         skos:broader       ct:kerboor;
         skos:inScheme      cs:bemonsteringsinstrument;
         skos:prefLabel     "Ramkernboor"@nl;
+        skos:topConceptOf  cs:bemonsteringsinstrument .
+
+ct:kraan  rdf:type         skos:Concept;
+        dc:identifier      "kraan";
+        skos:broader       ct:watermonsternemer;
+        skos:inScheme      cs:bemonsteringsinstrument;
+        skos:prefLabel     "Kraan"@nl;
         skos:topConceptOf  cs:bemonsteringsinstrument .
 
 ct:dikwandigepiston  rdf:type  skos:Concept;

@@ -74,6 +74,9 @@
                     "@id": "ct:buis"
                 },
                 {
+                    "@id": "ct:kraan"
+                },
+                {
                     "@id": "ct:steekguts30mm"
                 },
                 {
@@ -81,9 +84,6 @@
                 },
                 {
                     "@id": "ct:watertrap"
-                },
-                {
-                    "@id": "ct:kraantje"
                 },
                 {
                     "@id": "ct:zuigerboor"
@@ -915,6 +915,24 @@
             }
         },
         {
+            "@id": "ct:kraan",
+            "skos:topConceptOf": {
+                "@id": "cs:bemonsteringsinstrument"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Kraan"
+            },
+            "skos:inScheme": {
+                "@id": "cs:bemonsteringsinstrument"
+            },
+            "skos:broader": {
+                "@id": "ct:watermonsternemer"
+            },
+            "dc:identifier": "kraan",
+            "@type": "skos:Concept"
+        },
+        {
             "@id": "ct:steekguts30mm",
             "skos:topConceptOf": {
                 "@id": "cs:bemonsteringsinstrument"
@@ -966,24 +984,6 @@
                 "@id": "ct:watermonsternemer"
             },
             "dc:identifier": "watertrap",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:kraantje",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Kraantje"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:watermonsternemer"
-            },
-            "dc:identifier": "kraantje",
             "@type": "skos:Concept"
         },
         {
@@ -1170,7 +1170,7 @@
                     "@id": "ct:scheppot"
                 },
                 {
-                    "@id": "ct:kraantje"
+                    "@id": "ct:kraan"
                 },
                 {
                     "@id": "ct:waterfles"
@@ -2082,9 +2082,6 @@
                     "@id": "ct:dubkernbuis"
                 },
                 {
-                    "@id": "ct:kraantje"
-                },
-                {
                     "@id": "ct:steenboor"
                 },
                 {
@@ -2092,6 +2089,9 @@
                 },
                 {
                     "@id": "ct:piston"
+                },
+                {
+                    "@id": "ct:kraan"
                 },
                 {
                     "@id": "ct:dompelpomp12v"
