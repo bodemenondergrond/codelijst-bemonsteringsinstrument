@@ -14,7 +14,7 @@
 "ct:diamantboor","skos:Concept","diamantboor","colt:bemonsteringsinstrumenten",,"Diamantboor",,"ct:boor",,,,,,,,,,,"cs:bemonsteringsinstrument",,,,,,,"cs:bemonsteringsinstrument"
 "ct:dikwandig","skos:Concept","dikwandig","colt:bemonsteringsinstrumenten",,"Dikwandige steekbus",,"ct:steekbus",,,,,,,,,,,"cs:bemonsteringsinstrument",,,,,,,"cs:bemonsteringsinstrument"
 "ct:dikwandigepiston","skos:Concept","dikwandigepiston","colt:bemonsteringsinstrumenten",,"Dikwandige piston",,"ct:piston",,,,,,,,,,,"cs:bemonsteringsinstrument",,,,,,,"cs:bemonsteringsinstrument"
-"ct:dikwandiggeslagen","skos:Concept","dikwandiggeslagen","colt:bemonsteringsinstrumenten",,"Dikwandig steekbus - geslagen (OS-T/W-PE)",,"ct:dikwandig",,,,,,,,,,,"cs:bemonsteringsinstrument",,,,,,,"cs:bemonsteringsinstrument"
+"ct:dikwandiggeslagen","skos:Concept","dikwandiggeslagen","colt:bemonsteringsinstrumenten",,"Dikwandige steekbus - geslagen (OS-TK/W-PE)",,"ct:dikwandig",,,,,,,,,,,"cs:bemonsteringsinstrument",,,,,,,"cs:bemonsteringsinstrument"
 "ct:dompelpomp12v","skos:Concept","dompelpomp12v","colt:bemonsteringsinstrumenten",,"Dompelpomp (12V DCpompjes)",,"ct:perspomp",,,,,,,,,,,"cs:bemonsteringsinstrument",,,,,,,"cs:bemonsteringsinstrument"
 "ct:dompelpompond","skos:Concept","dompelpompond","colt:bemonsteringsinstrumenten",,"Dompelpomp (Onderwatercentrifugaalpomp)",,"ct:perspomp",,,,,,,,,,,"cs:bemonsteringsinstrument",,,,,,,"cs:bemonsteringsinstrument"
 "ct:dubbelwandigekernbuis","skos:Concept","dubbelwandigekernbuis","colt:bemonsteringsinstrumenten",,"Dubbelwandige kernbuis (CS-DT)",,"ct:buis",,,,,,,,,,,"cs:bemonsteringsinstrument",,,,,,,"cs:bemonsteringsinstrument"

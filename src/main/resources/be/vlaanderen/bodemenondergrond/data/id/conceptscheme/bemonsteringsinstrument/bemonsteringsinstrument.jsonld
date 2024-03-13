@@ -670,7 +670,7 @@
             },
             "skos:prefLabel": {
                 "@language": "nl",
-                "@value": "Dikwandig steekbus - geslagen (OS-T/W-PE)"
+                "@value": "Dikwandige steekbus - geslagen (OS-TK/W-PE)"
             },
             "skos:inScheme": {
                 "@id": "cs:bemonsteringsinstrument"

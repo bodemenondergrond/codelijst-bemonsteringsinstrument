@@ -726,7 +726,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dikwandiggeslagen">
     <skos:topConceptOf rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
-    <skos:prefLabel xml:lang="nl">Dikwandig steekbus - geslagen (OS-T/W-PE)</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Dikwandige steekbus - geslagen (OS-TK/W-PE)</skos:prefLabel>
     <skos:inScheme rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/bemonsteringsinstrument"/>
     <skos:broader rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/dikwandig"/>
     <dc:identifier>dikwandiggeslagen</dc:identifier>

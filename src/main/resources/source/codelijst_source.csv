@@ -14,7 +14,7 @@ skos:Concept,ct:dunwandig,dunwandig,colt:bemonsteringsinstrumenten,,Dunwandige s
 skos:Concept,ct:dunwandiggedrukt,dunwandiggedrukt,colt:bemonsteringsinstrumenten,,Dunwandige steekbus - gedrukt (OS-T/W-PU),,ct:dunwandig,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:dunwandiggeslagen,dunwandiggeslagen,colt:bemonsteringsinstrumenten,,Dunwandige steekbus - geslagen (OS-T/W-PE),,ct:dunwandig,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:dikwandig,dikwandig,colt:bemonsteringsinstrumenten,,Dikwandige steekbus,,ct:steekbus,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
-skos:Concept,ct:dikwandiggeslagen,dikwandiggeslagen,colt:bemonsteringsinstrumenten,,Dikwandig steekbus - geslagen (OS-T/W-PE),,ct:dikwandig,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:dikwandiggeslagen,dikwandiggeslagen,colt:bemonsteringsinstrumenten,,Dikwandige steekbus - geslagen (OS-TK/W-PE),,ct:dikwandig,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:ackermansteekbus,ackermansteekbus,colt:bemonsteringsinstrumenten,,Ackerman steekbus,,ct:steekbus,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:ackermangedrukt,ackermangedrukt,colt:bemonsteringsinstrumenten,,Ackerman steekbus - gedrukt,,ct:ackermansteekbus,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:ackermangeslagen,ackermangeslagen,colt:bemonsteringsinstrumenten,,Ackerman steekbus - geslagen,,ct:ackermansteekbus,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument

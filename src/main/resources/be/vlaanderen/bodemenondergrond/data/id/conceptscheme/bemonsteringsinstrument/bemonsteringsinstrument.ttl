@@ -187,7 +187,7 @@ ct:dikwandiggeslagen  rdf:type  skos:Concept;
         dc:identifier      "dikwandiggeslagen";
         skos:broader       ct:dikwandig;
         skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Dikwandig steekbus - geslagen (OS-T/W-PE)"@nl;
+        skos:prefLabel     "Dikwandige steekbus - geslagen (OS-TK/W-PE)"@nl;
         skos:topConceptOf  cs:bemonsteringsinstrument .
 
 ct:aqualock  rdf:type      skos:Concept;
