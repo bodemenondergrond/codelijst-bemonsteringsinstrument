@@ -70,7 +70,7 @@ skos:Concept,ct:geoprobe,geoprobe,colt:bemonsteringsinstrumenten,,Geoprobe,,ct:b
 skos:Concept,ct:ramguts,ramguts,colt:bemonsteringsinstrumenten,,Ramguts,,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:ramgutslin,ramgutslin,colt:bemonsteringsinstrumenten,,Ramguts met liner,,ct:ramguts,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:ramgutszlin,ramgutszlin,colt:bemonsteringsinstrumenten,,Ramguts zonder liner,,ct:ramguts,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
-skos:Concept,ct:rollenbeitel,rollenbeitel,colt:bemonsteringsinstrumenten,,Rollebeitel,,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
+skos:Concept,ct:rollenbeitel,rollenbeitel,colt:bemonsteringsinstrumenten,,Rollenbeitel,,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:luchthevel,luchthevel,colt:bemonsteringsinstrumenten,,Luchthevel,,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:diamantboor,diamantboor,colt:bemonsteringsinstrumenten,,Diamantboor,,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
 skos:Concept,ct:vibrocore,vibrocore,colt:bemonsteringsinstrumenten,,Vibrocore,,ct:boor,,,,,,,,,,,cs:bemonsteringsinstrument,,,,,,,cs:bemonsteringsinstrument
