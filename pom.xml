@@ -103,6 +103,26 @@
         <configuration>
           <encoding>UTF-8</encoding>
         </configuration>
+		<executions>
+		  <execution>
+			<id>copy-resources</id>
+			<phase>validate</phase>
+			<goals>
+			  <goal>copy-resources</goal>
+			</goals>
+			<configuration>
+			  <outputDirectory>${basedir}/target/classes/xsd</outputDirectory>
+				<resources>
+					<resource>
+						<directory>${basedir}/src/main/resources</directory>
+						<includes>
+							<include>**/*.xsd</include>
+						</includes>
+					</resource>
+				</resources>         
+			</configuration>
+		  </execution>
+		</executions>
       </plugin>
     </plugins>
     <resources>
