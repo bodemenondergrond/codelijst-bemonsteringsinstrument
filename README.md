@@ -1,4 +1,4 @@
-# codelijst-Bemonsteringsinstrumenten
+# codelijst-bemonsteringsinstrument
 
 ## Samenvatting
 
