@@ -1,618 +1,825 @@
-@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/bemonsteringsinstrument/> .
-@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
-@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/> .
-@prefix dc:   <http://purl.org/dc/elements/1.1/> .
-@prefix dct:  <http://purl.org/dc/terms/> .
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
-
-ct:edelmanboor  rdf:type   skos:Concept;
-        dc:identifier      "edelmanboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Edelmanboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:dubkernbuis  rdf:type   skos:Concept;
-        dc:identifier      "dubkernbuis";
-        skos:broader       ct:kerboor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Dubbelwandige kernbuis (CS-DT)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:steekguts20mm  rdf:type  skos:Concept;
-        dc:identifier      "steekguts20mm";
-        skos:broader       ct:steekguts;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Steekguts 20mm"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:luchthevel  rdf:type    skos:Concept;
-        dc:identifier      "luchthevel";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Luchthevel"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:steekbus  rdf:type      skos:Concept;
-        dc:identifier      "steekbus";
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:ackermansteekbus , ct:dikwandig , ct:dunwandig;
-        skos:prefLabel     "Steekbus"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:avegaarbooras  rdf:type  skos:Concept;
-        dc:identifier      "avegaarbooras";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Avegaarboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:platavegaarboor  rdf:type  skos:Concept;
-        dc:identifier      "platavegaarboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Platte avegaarboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:dunwandiggeslagen  rdf:type  skos:Concept;
-        dc:identifier      "dunwandiggeslagen";
-        skos:broader       ct:dunwandig;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Dunwandige steekbus - geslagen (OS-T/W-PE)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:spiraalboor  rdf:type   skos:Concept;
-        dc:identifier      "spiraalboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Spiraalboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-cs:bemonsteringsinstrument
-        rdf:type            skos:ConceptScheme;
-        dc:identifier       "bemonsteringsinstrument";
-        skos:definition     "Beschrijving welke procedure werd gevolgd bij de bemonstering."@nl;
-        skos:hasTopConcept  ct:dikwandiggeslagen , ct:pulsslang , ct:spoelboor , ct:steekguts20mm , ct:balgpomp , ct:scheppot , ct:strooiselkader , ct:steekguts25mm , ct:ackermangeslagen , ct:dubkernbuis , ct:ramkernboor , ct:luchthevel , ct:steekhuls , ct:hamerboor , ct:aqualock , ct:buis , ct:kraan , ct:steekguts30mm , ct:veenboor , ct:watertrap , ct:zuigerboor , ct:ramgutszlin , ct:holavegaarboorhsas , ct:trilboor , ct:ramguts , ct:schep , ct:platavegaarboor , ct:lansboor , ct:dikwandigepiston , ct:ackermangedrukt , ct:steekbus , ct:watermonsternemer , ct:ring , ct:ackermansteekbus , ct:pulsboor , ct:rollenbeitel , ct:geoprobe , ct:enkelwandigkernbuis , ct:ramgutslin , ct:spade , ct:dompelpomp12v , ct:dikwandig , ct:dunwandigepiston , ct:boor , ct:aqualockpiston , ct:pomp , ct:edelmanboor , ct:diamantboor , ct:bovcentrifugaalpomp , ct:steekguts , ct:handboor , ct:riversideboor , ct:steenboor , ct:piston , ct:trippelwandigekernbuis , ct:dubkleppomp , ct:dunwandiggeslagen , ct:pvcaangescherpt30mm , ct:zuigpomp , ct:dunwandig , ct:enkkernbuis , ct:luchthamer , ct:graafmachine , ct:lepelboor , ct:zuigboor , ct:waterfles , ct:grijpboor , ct:dubbelwandigekernbuis , ct:vibrocore , ct:rvsstrooiselkader25cm , ct:vacuumpomp , ct:kerboor , ct:holavegaarboorlin , ct:steekhuls192cm3 , ct:avegaarbooras , ct:tripkernbuis , ct:spiraalboor , ct:slangenpomp , ct:dunwandiggedrukt , ct:dompelpompond , ct:perspomp , ct:kopeckysteekset100cm3 , ct:slagboor;
-        skos:prefLabel      "Codelijst bemonsteringsinstrument."@nl .
-
-ct:dunwandigepiston  rdf:type  skos:Concept;
-        dc:identifier      "dunwandigepiston";
-        skos:broader       ct:piston;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Dunwandige piston"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:rollenbeitel  rdf:type  skos:Concept;
-        dc:identifier      "rollenbeitel";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Rollenbeitel"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:steekguts30mm  rdf:type  skos:Concept;
-        dc:identifier      "steekguts30mm";
-        skos:broader       ct:steekguts;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Steekguts 30mm"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:buis  rdf:type          skos:Concept;
-        dc:identifier      "buis";
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:enkelwandigkernbuis , ct:trippelwandigekernbuis , ct:aqualock , ct:piston , ct:dubbelwandigekernbuis , ct:pvcaangescherpt30mm;
-        skos:prefLabel     "Buis"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:spoelboor  rdf:type     skos:Concept;
-        dc:identifier      "spoelboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Spoelboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:dompelpomp12v  rdf:type  skos:Concept;
-        dc:identifier      "dompelpomp12v";
-        skos:broader       ct:perspomp;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Dompelpomp (12V DCpompjes)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:steekguts25mm  rdf:type  skos:Concept;
-        dc:identifier      "steekguts25mm";
-        skos:broader       ct:steekguts;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Steekguts 25mm"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:riversideboor  rdf:type  skos:Concept;
-        dc:identifier      "riversideboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Riverside boor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:zuigboor  rdf:type      skos:Concept;
-        dc:identifier      "zuigboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Zuigboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:steekhuls  rdf:type     skos:Concept;
-        dc:identifier      "steekhuls";
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:steekhuls192cm3;
-        skos:prefLabel     "Steekhuls"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:zuigpomp  rdf:type      skos:Concept;
-        dc:identifier      "zuigpomp";
-        skos:broader       ct:pomp;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:vacuumpomp , ct:bovcentrifugaalpomp , ct:slangenpomp;
-        skos:prefLabel     "Zuigpomp"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:strooiselkader  rdf:type  skos:Concept;
-        dc:identifier      "strooiselkader";
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:rvsstrooiselkader25cm;
-        skos:prefLabel     "Strooiselkader"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:scheppot  rdf:type      skos:Concept;
-        dc:identifier      "scheppot";
-        skos:broader       ct:watermonsternemer;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Scheppot"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:vacuumpomp  rdf:type    skos:Concept;
-        dc:identifier      "vacuumpomp";
-        skos:broader       ct:zuigpomp;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Vacuumpomp"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:graafmachine  rdf:type  skos:Concept;
-        dc:identifier      "graafmachine";
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Graafmachine"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:dikwandiggeslagen  rdf:type  skos:Concept;
-        dc:identifier      "dikwandiggeslagen";
-        skos:broader       ct:dikwandig;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Dikwandige steekbus - geslagen (OS-TK/W-PE)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:aqualock  rdf:type      skos:Concept;
-        dc:identifier      "aqualock";
-        skos:broader       ct:buis;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Aqualock"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:luchthamer  rdf:type    skos:Concept;
-        dc:identifier      "luchthamer";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Luchthamer"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:waterfles  rdf:type     skos:Concept;
-        dc:identifier      "waterfles";
-        skos:broader       ct:watermonsternemer;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Waterfles"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:balgpomp  rdf:type      skos:Concept;
-        dc:identifier      "balgpomp";
-        skos:broader       ct:perspomp;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Balgpomp (Gasdruksysteem)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:hamerboor  rdf:type     skos:Concept;
-        dc:identifier      "hamerboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Hamerboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:kopeckysteekset100cm3
-        rdf:type           skos:Concept;
-        dc:identifier      "kopeckysteekset100cm3";
-        skos:broader       ct:ring;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Kopecky steekset 100cm3"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:diamantboor  rdf:type   skos:Concept;
-        dc:identifier      "diamantboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Diamantboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:pulsboor  rdf:type      skos:Concept;
-        dc:identifier      "pulsboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Pulsboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:kerboor  rdf:type       skos:Concept;
-        dc:identifier      "kerboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:enkkernbuis , ct:ramkernboor , ct:tripkernbuis , ct:dubkernbuis;
-        skos:prefLabel     "Kernboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:ramguts  rdf:type       skos:Concept;
-        dc:identifier      "ramguts";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:ramgutszlin , ct:ramgutslin;
-        skos:prefLabel     "Ramguts"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:ring  rdf:type          skos:Concept;
-        dc:identifier      "ring";
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:kopeckysteekset100cm3;
-        skos:prefLabel     "Ring"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:dompelpompond  rdf:type  skos:Concept;
-        dc:identifier      "dompelpompond";
-        skos:broader       ct:perspomp;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Dompelpomp (Onderwatercentrifugaalpomp)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:ackermangedrukt  rdf:type  skos:Concept;
-        dc:identifier      "ackermangedrukt";
-        skos:broader       ct:ackermansteekbus;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Ackerman steekbus - gedrukt"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:veenboor  rdf:type      skos:Concept;
-        dc:identifier      "veenboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Veenboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:dunwandiggedrukt  rdf:type  skos:Concept;
-        dc:identifier      "dunwandiggedrukt";
-        skos:broader       ct:dunwandig;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Dunwandige steekbus - gedrukt (OS-T/W-PU)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:ackermangeslagen  rdf:type  skos:Concept;
-        dc:identifier      "ackermangeslagen";
-        skos:broader       ct:ackermansteekbus;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Ackerman steekbus - geslagen"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:spade  rdf:type         skos:Concept;
-        dc:identifier      "spade";
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Spade"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:boor  rdf:type          skos:Concept;
-        dc:identifier      "boor";
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:platavegaarboor , ct:kerboor , ct:hamerboor , ct:zuigboor , ct:handboor , ct:holavegaarboorhsas , ct:zuigerboor , ct:slagboor , ct:rollenbeitel , ct:luchthamer , ct:grijpboor , ct:pulsboor , ct:trilboor , ct:ramguts , ct:veenboor , ct:riversideboor , ct:lansboor , ct:lepelboor , ct:luchthevel , ct:spiraalboor , ct:geoprobe , ct:diamantboor , ct:vibrocore , ct:edelmanboor , ct:spoelboor , ct:steenboor , ct:avegaarbooras;
-        skos:prefLabel     "Boor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:dunwandig  rdf:type     skos:Concept;
-        dc:identifier      "dunwandig";
-        skos:broader       ct:steekbus;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:dunwandiggeslagen , ct:dunwandiggedrukt;
-        skos:prefLabel     "Dunwandige steekbus"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:watertrap  rdf:type     skos:Concept;
-        dc:identifier      "watertrap";
-        skos:broader       ct:watermonsternemer;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Watertrap"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:slangenpomp  rdf:type   skos:Concept;
-        dc:identifier      "slangenpomp";
-        skos:broader       ct:zuigpomp;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Slangenpomp of Peristaltische pomp"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:lansboor  rdf:type      skos:Concept;
-        dc:identifier      "lansboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Lansboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:pomp  rdf:type          skos:Concept;
-        dc:identifier      "pomp";
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:perspomp , ct:zuigpomp;
-        skos:prefLabel     "Pomp"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:pvcaangescherpt30mm
-        rdf:type           skos:Concept;
-        dc:identifier      "pvcaangescherpt30mm";
-        skos:broader       ct:buis;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "PVC aangescherpte buis 30mm"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:handboor  rdf:type      skos:Concept;
-        dc:identifier      "handboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Handboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:geoprobe  rdf:type      skos:Concept;
-        dc:identifier      "geoprobe";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Geoprobe"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:enkelwandigkernbuis
-        rdf:type           skos:Concept;
-        dc:identifier      "enkelwandigkernbuis";
-        skos:broader       ct:buis;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Enkelwandige kernbuis (CS-ST)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:zuigerboor  rdf:type    skos:Concept;
-        dc:identifier      "zuigerboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Zuigerboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:watermonsternemer  rdf:type  skos:Concept;
-        dc:identifier      "watermonsternemer";
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:watertrap , ct:waterfles , ct:kraan , ct:scheppot;
-        skos:prefLabel     "Watermonsternemer"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:dikwandig  rdf:type     skos:Concept;
-        dc:identifier      "dikwandig";
-        skos:broader       ct:steekbus;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:dikwandiggeslagen;
-        skos:prefLabel     "Dikwandige steekbus"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:piston  rdf:type        skos:Concept;
-        dc:identifier      "piston";
-        skos:broader       ct:buis;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:aqualockpiston , ct:dikwandigepiston , ct:dunwandigepiston;
-        skos:prefLabel     "Piston (PS)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:schep  rdf:type         skos:Concept;
-        dc:identifier      "schep";
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Schep"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:trippelwandigekernbuis
-        rdf:type           skos:Concept;
-        dc:identifier      "trippelwandigekernbuis";
-        skos:broader       ct:buis;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Trippelwandige kernbuis (CS-TT)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:dubkleppomp  rdf:type   skos:Concept;
-        dc:identifier      "dubkleppomp";
-        skos:broader       ct:perspomp;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Dubbele kleppomp"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:ramgutslin  rdf:type    skos:Concept;
-        dc:identifier      "ramgutslin";
-        skos:broader       ct:ramguts;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Ramguts met liner"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:ramgutszlin  rdf:type   skos:Concept;
-        dc:identifier      "ramgutszlin";
-        skos:broader       ct:ramguts;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Ramguts zonder liner"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:holavegaarboorlin  rdf:type  skos:Concept;
-        dc:identifier      "holavegaarboorlin";
-        skos:broader       ct:holavegaarboorhsas;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Holle avegaarboor met liner"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-colt:bemonsteringsinstrumenten
-        rdf:type        skos:Collection;
-        dc:identifier   "bemonsteringsinstrumenten";
-        skos:inScheme   cs:bemonsteringsinstrument;
-        skos:member     ct:grijpboor , ct:buis , ct:scheppot , ct:trippelwandigekernbuis , ct:ackermansteekbus , ct:holavegaarboorlin , ct:schep , ct:enkkernbuis , ct:vacuumpomp , ct:dubkleppomp , ct:ramguts , ct:ring , ct:spade , ct:steekguts30mm , ct:aqualock , ct:strooiselkader , ct:zuigboor , ct:steekguts25mm , ct:pulsslang , ct:dompelpompond , ct:veenboor , ct:boor , ct:avegaarbooras , ct:steekhuls192cm3 , ct:kopeckysteekset100cm3 , ct:steekhuls , ct:edelmanboor , ct:trilboor , ct:dikwandigepiston , ct:dikwandig , ct:ackermangeslagen , ct:ramgutszlin , ct:luchthamer , ct:lansboor , ct:bovcentrifugaalpomp , ct:geoprobe , ct:zuigerboor , ct:slangenpomp , ct:dubkernbuis , ct:steenboor , ct:slagboor , ct:piston , ct:kraan , ct:dompelpomp12v , ct:dikwandiggeslagen , ct:steekguts , ct:pvcaangescherpt30mm , ct:dunwandigepiston , ct:riversideboor , ct:ramkernboor , ct:ramgutslin , ct:spiraalboor , ct:dunwandig , ct:balgpomp , ct:kerboor , ct:rollenbeitel , ct:pulsboor , ct:tripkernbuis , ct:waterfles , ct:platavegaarboor , ct:perspomp , ct:rvsstrooiselkader25cm , ct:pomp , ct:handboor , ct:luchthevel , ct:holavegaarboorhsas , ct:enkelwandigkernbuis , ct:dunwandiggedrukt , ct:graafmachine , ct:ackermangedrukt , ct:steekguts20mm , ct:zuigpomp , ct:spoelboor , ct:aqualockpiston , ct:diamantboor , ct:watermonsternemer , ct:watertrap , ct:lepelboor , ct:hamerboor , ct:dubbelwandigekernbuis , ct:vibrocore , ct:dunwandiggeslagen , ct:steekbus;
-        skos:prefLabel  "Collectie van bemonsteringsinstrumenten."@nl .
-
-ct:lepelboor  rdf:type     skos:Concept;
-        dc:identifier      "lepelboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Lepelboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:aqualockpiston  rdf:type  skos:Concept;
-        dc:identifier      "aqualockpiston";
-        skos:broader       ct:piston;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Aqualock"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:dubbelwandigekernbuis
-        rdf:type           skos:Concept;
-        dc:identifier      "dubbelwandigekernbuis";
-        skos:broader       ct:buis;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Dubbelwandige kernbuis (CS-DT)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:pulsslang  rdf:type     skos:Concept;
-        dc:identifier      "pulsslang";
-        skos:broader       ct:perspomp;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Pulsslang (Kogelkleppomp)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:steekguts  rdf:type     skos:Concept;
-        dc:identifier      "steekguts";
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:steekguts20mm , ct:steekguts25mm , ct:steekguts30mm;
-        skos:prefLabel     "Steekguts"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:slagboor  rdf:type      skos:Concept;
-        dc:identifier      "slagboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Slagboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:bovcentrifugaalpomp
-        rdf:type           skos:Concept;
-        dc:identifier      "bovcentrifugaalpomp";
-        skos:broader       ct:zuigpomp;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Bovengrondse centrifugaalpomp"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:ramkernboor  rdf:type   skos:Concept;
-        dc:identifier      "ramkernboor";
-        skos:broader       ct:kerboor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Ramkernboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:kraan  rdf:type         skos:Concept;
-        dc:identifier      "kraan";
-        skos:broader       ct:watermonsternemer;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Kraan"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:dikwandigepiston  rdf:type  skos:Concept;
-        dc:identifier      "dikwandigepiston";
-        skos:broader       ct:piston;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Dikwandige piston"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:steenboor  rdf:type     skos:Concept;
-        dc:identifier      "steenboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Steenboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:ackermansteekbus  rdf:type  skos:Concept;
-        dc:identifier      "ackermansteekbus";
-        skos:broader       ct:steekbus;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:ackermangeslagen , ct:ackermangedrukt;
-        skos:prefLabel     "Ackerman steekbus"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:vibrocore  rdf:type     skos:Concept;
-        dc:identifier      "vibrocore";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Vibrocore"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:holavegaarboorhsas
-        rdf:type           skos:Concept;
-        dc:identifier      "holavegaarboorhsas";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:holavegaarboorlin;
-        skos:prefLabel     "Holle avegaarboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:tripkernbuis  rdf:type  skos:Concept;
-        dc:identifier      "tripkernbuis";
-        skos:broader       ct:kerboor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Trippelwandige kernbuis (CS-TT)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:rvsstrooiselkader25cm
-        rdf:type           skos:Concept;
-        dc:identifier      "rvsstrooiselkader25cm";
-        skos:broader       ct:strooiselkader;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "RVS Strooiselkader zijde 25cm"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:grijpboor  rdf:type     skos:Concept;
-        dc:identifier      "grijpboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Grijpboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:enkkernbuis  rdf:type   skos:Concept;
-        dc:identifier      "enkkernbuis";
-        skos:broader       ct:kerboor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Enkelwandige kernbuis (CS-ST)"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:trilboor  rdf:type      skos:Concept;
-        dc:identifier      "trilboor";
-        skos:broader       ct:boor;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Trilboor"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:steekhuls192cm3  rdf:type  skos:Concept;
-        dc:identifier      "steekhuls192cm3";
-        skos:broader       ct:steekhuls;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:prefLabel     "Steekhuls 192cm3"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
-
-ct:perspomp  rdf:type      skos:Concept;
-        dc:identifier      "perspomp";
-        skos:broader       ct:pomp;
-        skos:inScheme      cs:bemonsteringsinstrument;
-        skos:narrower      ct:dubkleppomp , ct:dompelpomp12v , ct:dompelpompond , ct:pulsslang , ct:balgpomp;
-        skos:prefLabel     "Perspomp"@nl;
-        skos:topConceptOf  cs:bemonsteringsinstrument .
+@prefix concept: <https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/>.
+@prefix collectie: <https://data.bodemenondergrond.vlaanderen.be/id/collection/bemonsteringsinstrument/>.
+@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/>.
+@prefix country: <http://publications.europa.eu/resource/authority/country/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
+@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eurovoc: <http://eurovoc.europa.eu/>.
+@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix formats: <http://www.w3.org/ns/formats/>.
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
+@prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
+@prefix omg_catalog: <https://data.omgeving.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.omgeving.vlaanderen.be/doc/catalog/>.
+@prefix omg_collection: <https://data.bodemenondergrond.vlaanderen.be/id/collection/>.
+@prefix omg_dataservice: <https://data.bodemenondergrond.vlaanderen.be/id/dataservice/>.
+@prefix omg_dataset_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/>.
+@prefix omg_dataset: <https://data.bodemenondergrond.vlaanderen.be/id/dataset/>.
+@prefix omg_distribution_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/>.
+@prefix omg_distribution: <https://data.bodemenondergrond.vlaanderen.be/id/distribution/>.
+@prefix omg_graphcollection: <https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/>.
+@prefix omg_graph: <https://data.bodemenondergrond.vlaanderen.be/id/graph/>.
+@prefix omg_id: <https://data.bodemenondergrond.vlaanderen.be/id/>.
+@prefix omg_named_graph: <https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/>.
+@prefix omg_ontology: <https://data.bodemenondergrond.vlaanderen.be/id/ontology/>.
+@prefix omg_package: <https://data.bodemenondergrond.vlaanderen.be/id/package/>.
+@prefix omg_periodoftime: <https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/>.
+@prefix omg_service: <https://data.bodemenondergrond.vlaanderen.be/id/service/>.
+@prefix omg_vcard: <https://data.bodemenondergrond.vlaanderen.be/id/vcard/>.
+@prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix ts: <http://www.w3.org/ns/formats/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+collectie:bemonsteringsinstrumenten dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.bemonsteringsinstrument.bemonsteringsinstrumenten";
+    a skos:Collection;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:member concept:ackermangedrukt, concept:ackermangeslagen, concept:ackermansteekbus, concept:aqualock, concept:aqualockpiston, concept:avegaarbooras, concept:balgpomp, concept:boor, concept:bovcentrifugaalpomp, concept:buis, concept:diamantboor, concept:dikwandig, concept:dikwandigepiston, concept:dikwandiggeslagen, concept:dompelpomp12v, concept:dompelpompond, concept:dubbelwandigekernbuis, concept:dubkernbuis, concept:dubkleppomp, concept:dunwandig, concept:dunwandigepiston, concept:dunwandiggedrukt, concept:dunwandiggeslagen, concept:edelmanboor, concept:enkelwandigkernbuis, concept:enkkernbuis, concept:geoprobe, concept:graafmachine, concept:grijpboor, concept:hamerboor, concept:handboor, concept:holavegaarboorhsas, concept:holavegaarboorlin, concept:kerboor, concept:kopeckysteekset100cm3, concept:kraan, concept:lansboor, concept:lepelboor, concept:luchthamer, concept:luchthevel, concept:perspomp, concept:piston, concept:platavegaarboor, concept:pomp, concept:pulsboor, concept:pulsslang, concept:pvcaangescherpt30mm, concept:ramguts, concept:ramgutslin, concept:ramgutszlin, concept:ramkernboor, concept:ring, concept:riversideboor, concept:rollenbeitel, concept:rvsstrooiselkader25cm, concept:schep, concept:scheppot, concept:slagboor, concept:slangenpomp, concept:spade, concept:spiraalboor, concept:spoelboor, concept:steekbus, concept:steekguts20mm, concept:steekguts25mm, concept:steekguts30mm, concept:steekguts, concept:steekhuls192cm3, concept:steekhuls, concept:steenboor, concept:strooiselkader, concept:trilboor, concept:tripkernbuis, concept:trippelwandigekernbuis, concept:vacuumpomp, concept:veenboor, concept:vibrocore, concept:waterfles, concept:watermonsternemer, concept:watertrap, concept:zuigboor, concept:zuigerboor, concept:zuigpomp;
+    skos:notation "bemonsteringsinstrumenten";
+    skos:prefLabel "Collectie van bemonsteringsinstrumenten."@nl.
+concept:ackermangedrukt dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ackermangedrukt";
+    a skos:Concept;
+    skos:broader concept:ackermansteekbus;
+    skos:broaderTransitive concept:ackermansteekbus, concept:steekbus;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "ackermangedrukt";
+    skos:prefLabel "Ackerman steekbus - gedrukt"@nl;
+    skos:semanticRelation concept:ackermansteekbus, concept:steekbus;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:ackermangeslagen dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ackermangeslagen";
+    a skos:Concept;
+    skos:broader concept:ackermansteekbus;
+    skos:broaderTransitive concept:ackermansteekbus, concept:steekbus;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "ackermangeslagen";
+    skos:prefLabel "Ackerman steekbus - geslagen"@nl;
+    skos:semanticRelation concept:ackermansteekbus, concept:steekbus;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:ackermansteekbus dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ackermansteekbus";
+    a skos:Concept;
+    skos:broader concept:steekbus;
+    skos:broaderTransitive concept:steekbus;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:ackermangedrukt, concept:ackermangeslagen;
+    skos:narrowerTransitive concept:ackermangedrukt, concept:ackermangeslagen;
+    skos:notation "ackermansteekbus";
+    skos:prefLabel "Ackerman steekbus"@nl;
+    skos:semanticRelation concept:ackermangedrukt, concept:ackermangeslagen, concept:steekbus;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:aqualock dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.aqualock";
+    a skos:Concept;
+    skos:broader concept:buis;
+    skos:broaderTransitive concept:buis;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "aqualock";
+    skos:prefLabel "Aqualock"@nl;
+    skos:semanticRelation concept:buis;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:aqualockpiston dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.aqualockpiston";
+    a skos:Concept;
+    skos:broader concept:piston;
+    skos:broaderTransitive concept:buis, concept:piston;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "aqualockpiston";
+    skos:prefLabel "Aqualock"@nl;
+    skos:semanticRelation concept:buis, concept:piston;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:avegaarbooras dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.avegaarbooras";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "avegaarbooras";
+    skos:prefLabel "Avegaarboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:balgpomp dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.balgpomp";
+    a skos:Concept;
+    skos:broader concept:perspomp;
+    skos:broaderTransitive concept:perspomp, concept:pomp;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "balgpomp";
+    skos:prefLabel "Balgpomp (Gasdruksysteem)"@nl;
+    skos:semanticRelation concept:perspomp, concept:pomp;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:boor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.boor";
+    a skos:Concept;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:avegaarbooras, concept:diamantboor, concept:edelmanboor, concept:geoprobe, concept:grijpboor, concept:hamerboor, concept:handboor, concept:holavegaarboorhsas, concept:kerboor, concept:lansboor, concept:lepelboor, concept:luchthamer, concept:luchthevel, concept:platavegaarboor, concept:pulsboor, concept:ramguts, concept:riversideboor, concept:rollenbeitel, concept:slagboor, concept:spiraalboor, concept:spoelboor, concept:steenboor, concept:trilboor, concept:veenboor, concept:vibrocore, concept:zuigboor, concept:zuigerboor;
+    skos:narrowerTransitive concept:avegaarbooras, concept:diamantboor, concept:dubkernbuis, concept:edelmanboor, concept:enkkernbuis, concept:geoprobe, concept:grijpboor, concept:hamerboor, concept:handboor, concept:holavegaarboorhsas, concept:holavegaarboorlin, concept:kerboor, concept:lansboor, concept:lepelboor, concept:luchthamer, concept:luchthevel, concept:platavegaarboor, concept:pulsboor, concept:ramguts, concept:ramgutslin, concept:ramgutszlin, concept:ramkernboor, concept:riversideboor, concept:rollenbeitel, concept:slagboor, concept:spiraalboor, concept:spoelboor, concept:steenboor, concept:trilboor, concept:tripkernbuis, concept:veenboor, concept:vibrocore, concept:zuigboor, concept:zuigerboor;
+    skos:notation "boor";
+    skos:prefLabel "Boor"@nl;
+    skos:semanticRelation concept:avegaarbooras, concept:diamantboor, concept:dubkernbuis, concept:edelmanboor, concept:enkkernbuis, concept:geoprobe, concept:grijpboor, concept:hamerboor, concept:handboor, concept:holavegaarboorhsas, concept:holavegaarboorlin, concept:kerboor, concept:lansboor, concept:lepelboor, concept:luchthamer, concept:luchthevel, concept:platavegaarboor, concept:pulsboor, concept:ramguts, concept:ramgutslin, concept:ramgutszlin, concept:ramkernboor, concept:riversideboor, concept:rollenbeitel, concept:slagboor, concept:spiraalboor, concept:spoelboor, concept:steenboor, concept:trilboor, concept:tripkernbuis, concept:veenboor, concept:vibrocore, concept:zuigboor, concept:zuigerboor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:bovcentrifugaalpomp dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.bovcentrifugaalpomp";
+    a skos:Concept;
+    skos:broader concept:zuigpomp;
+    skos:broaderTransitive concept:pomp, concept:zuigpomp;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "bovcentrifugaalpomp";
+    skos:prefLabel "Bovengrondse centrifugaalpomp"@nl;
+    skos:semanticRelation concept:pomp, concept:zuigpomp;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:buis dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.buis";
+    a skos:Concept;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:aqualock, concept:dubbelwandigekernbuis, concept:enkelwandigkernbuis, concept:piston, concept:pvcaangescherpt30mm, concept:trippelwandigekernbuis;
+    skos:narrowerTransitive concept:aqualock, concept:aqualockpiston, concept:dikwandigepiston, concept:dubbelwandigekernbuis, concept:dunwandigepiston, concept:enkelwandigkernbuis, concept:piston, concept:pvcaangescherpt30mm, concept:trippelwandigekernbuis;
+    skos:notation "buis";
+    skos:prefLabel "Buis"@nl;
+    skos:semanticRelation concept:aqualock, concept:aqualockpiston, concept:dikwandigepiston, concept:dubbelwandigekernbuis, concept:dunwandigepiston, concept:enkelwandigkernbuis, concept:piston, concept:pvcaangescherpt30mm, concept:trippelwandigekernbuis;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:diamantboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.diamantboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "diamantboor";
+    skos:prefLabel "Diamantboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:dikwandig dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dikwandig";
+    a skos:Concept;
+    skos:broader concept:steekbus;
+    skos:broaderTransitive concept:steekbus;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:dikwandiggeslagen;
+    skos:narrowerTransitive concept:dikwandiggeslagen;
+    skos:notation "dikwandig";
+    skos:prefLabel "Dikwandige steekbus"@nl;
+    skos:semanticRelation concept:dikwandiggeslagen, concept:steekbus;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:dikwandigepiston dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dikwandigepiston";
+    a skos:Concept;
+    skos:broader concept:piston;
+    skos:broaderTransitive concept:buis, concept:piston;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "dikwandigepiston";
+    skos:prefLabel "Dikwandige piston"@nl;
+    skos:semanticRelation concept:buis, concept:piston;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:dikwandiggeslagen dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dikwandiggeslagen";
+    a skos:Concept;
+    skos:broader concept:dikwandig;
+    skos:broaderTransitive concept:dikwandig, concept:steekbus;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "dikwandiggeslagen";
+    skos:prefLabel "Dikwandige steekbus - geslagen (OS-TK/W-PE)"@nl;
+    skos:semanticRelation concept:dikwandig, concept:steekbus;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:dompelpomp12v dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dompelpomp12v";
+    a skos:Concept;
+    skos:broader concept:perspomp;
+    skos:broaderTransitive concept:perspomp, concept:pomp;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "dompelpomp12v";
+    skos:prefLabel "Dompelpomp (12V DCpompjes)"@nl;
+    skos:semanticRelation concept:perspomp, concept:pomp;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:dompelpompond dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dompelpompond";
+    a skos:Concept;
+    skos:broader concept:perspomp;
+    skos:broaderTransitive concept:perspomp, concept:pomp;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "dompelpompond";
+    skos:prefLabel "Dompelpomp (Onderwatercentrifugaalpomp)"@nl;
+    skos:semanticRelation concept:perspomp, concept:pomp;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:dubbelwandigekernbuis dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dubbelwandigekernbuis";
+    a skos:Concept;
+    skos:broader concept:buis;
+    skos:broaderTransitive concept:buis;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "dubbelwandigekernbuis";
+    skos:prefLabel "Dubbelwandige kernbuis (CS-DT)"@nl;
+    skos:semanticRelation concept:buis;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:dubkernbuis dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dubkernbuis";
+    a skos:Concept;
+    skos:broader concept:kerboor;
+    skos:broaderTransitive concept:boor, concept:kerboor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "dubkernbuis";
+    skos:prefLabel "Dubbelwandige kernbuis (CS-DT)"@nl;
+    skos:semanticRelation concept:boor, concept:kerboor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:dubkleppomp dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dubkleppomp";
+    a skos:Concept;
+    skos:broader concept:perspomp;
+    skos:broaderTransitive concept:perspomp, concept:pomp;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "dubkleppomp";
+    skos:prefLabel "Dubbele kleppomp"@nl;
+    skos:semanticRelation concept:perspomp, concept:pomp;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:dunwandig dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dunwandig";
+    a skos:Concept;
+    skos:broader concept:steekbus;
+    skos:broaderTransitive concept:steekbus;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:dunwandiggedrukt, concept:dunwandiggeslagen;
+    skos:narrowerTransitive concept:dunwandiggedrukt, concept:dunwandiggeslagen;
+    skos:notation "dunwandig";
+    skos:prefLabel "Dunwandige steekbus"@nl;
+    skos:semanticRelation concept:dunwandiggedrukt, concept:dunwandiggeslagen, concept:steekbus;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:dunwandigepiston dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dunwandigepiston";
+    a skos:Concept;
+    skos:broader concept:piston;
+    skos:broaderTransitive concept:buis, concept:piston;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "dunwandigepiston";
+    skos:prefLabel "Dunwandige piston"@nl;
+    skos:semanticRelation concept:buis, concept:piston;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:dunwandiggedrukt dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dunwandiggedrukt";
+    a skos:Concept;
+    skos:broader concept:dunwandig;
+    skos:broaderTransitive concept:dunwandig, concept:steekbus;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "dunwandiggedrukt";
+    skos:prefLabel "Dunwandige steekbus - gedrukt (OS-T/W-PU)"@nl;
+    skos:semanticRelation concept:dunwandig, concept:steekbus;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:dunwandiggeslagen dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dunwandiggeslagen";
+    a skos:Concept;
+    skos:broader concept:dunwandig;
+    skos:broaderTransitive concept:dunwandig, concept:steekbus;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "dunwandiggeslagen";
+    skos:prefLabel "Dunwandige steekbus - geslagen (OS-T/W-PE)"@nl;
+    skos:semanticRelation concept:dunwandig, concept:steekbus;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:edelmanboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.edelmanboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "edelmanboor";
+    skos:prefLabel "Edelmanboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:enkelwandigkernbuis dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.enkelwandigkernbuis";
+    a skos:Concept;
+    skos:broader concept:buis;
+    skos:broaderTransitive concept:buis;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "enkelwandigkernbuis";
+    skos:prefLabel "Enkelwandige kernbuis (CS-ST)"@nl;
+    skos:semanticRelation concept:buis;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:enkkernbuis dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.enkkernbuis";
+    a skos:Concept;
+    skos:broader concept:kerboor;
+    skos:broaderTransitive concept:boor, concept:kerboor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "enkkernbuis";
+    skos:prefLabel "Enkelwandige kernbuis (CS-ST)"@nl;
+    skos:semanticRelation concept:boor, concept:kerboor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:geoprobe dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.geoprobe";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "geoprobe";
+    skos:prefLabel "Geoprobe"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:graafmachine dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.graafmachine";
+    a skos:Concept;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "graafmachine";
+    skos:prefLabel "Graafmachine"@nl;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:grijpboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.grijpboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "grijpboor";
+    skos:prefLabel "Grijpboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:hamerboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.hamerboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "hamerboor";
+    skos:prefLabel "Hamerboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:handboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.handboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "handboor";
+    skos:prefLabel "Handboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:holavegaarboorhsas dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.holavegaarboorhsas";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:holavegaarboorlin;
+    skos:narrowerTransitive concept:holavegaarboorlin;
+    skos:notation "holavegaarboorhsas";
+    skos:prefLabel "Holle avegaarboor"@nl;
+    skos:semanticRelation concept:boor, concept:holavegaarboorlin;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:holavegaarboorlin dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.holavegaarboorlin";
+    a skos:Concept;
+    skos:broader concept:holavegaarboorhsas;
+    skos:broaderTransitive concept:boor, concept:holavegaarboorhsas;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "holavegaarboorlin";
+    skos:prefLabel "Holle avegaarboor met liner"@nl;
+    skos:semanticRelation concept:boor, concept:holavegaarboorhsas;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:kerboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.kerboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:dubkernbuis, concept:enkkernbuis, concept:ramkernboor, concept:tripkernbuis;
+    skos:narrowerTransitive concept:dubkernbuis, concept:enkkernbuis, concept:ramkernboor, concept:tripkernbuis;
+    skos:notation "kerboor";
+    skos:prefLabel "Kernboor"@nl;
+    skos:semanticRelation concept:boor, concept:dubkernbuis, concept:enkkernbuis, concept:ramkernboor, concept:tripkernbuis;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:kopeckysteekset100cm3 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.kopeckysteekset100cm3";
+    a skos:Concept;
+    skos:broader concept:ring;
+    skos:broaderTransitive concept:ring;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "kopeckysteekset100cm3";
+    skos:prefLabel "Kopecky steekset 100cm3"@nl;
+    skos:semanticRelation concept:ring;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:kraan dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.kraan";
+    a skos:Concept;
+    skos:broader concept:watermonsternemer;
+    skos:broaderTransitive concept:watermonsternemer;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "kraan";
+    skos:prefLabel "Kraan"@nl;
+    skos:semanticRelation concept:watermonsternemer;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:lansboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.lansboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "lansboor";
+    skos:prefLabel "Lansboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:lepelboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.lepelboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "lepelboor";
+    skos:prefLabel "Lepelboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:luchthamer dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.luchthamer";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "luchthamer";
+    skos:prefLabel "Luchthamer"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:luchthevel dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.luchthevel";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "luchthevel";
+    skos:prefLabel "Luchthevel"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:perspomp dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.perspomp";
+    a skos:Concept;
+    skos:broader concept:pomp;
+    skos:broaderTransitive concept:pomp;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:balgpomp, concept:dompelpomp12v, concept:dompelpompond, concept:dubkleppomp, concept:pulsslang;
+    skos:narrowerTransitive concept:balgpomp, concept:dompelpomp12v, concept:dompelpompond, concept:dubkleppomp, concept:pulsslang;
+    skos:notation "perspomp";
+    skos:prefLabel "Perspomp"@nl;
+    skos:semanticRelation concept:balgpomp, concept:dompelpomp12v, concept:dompelpompond, concept:dubkleppomp, concept:pomp, concept:pulsslang;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:piston dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.piston";
+    a skos:Concept;
+    skos:broader concept:buis;
+    skos:broaderTransitive concept:buis;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:aqualockpiston, concept:dikwandigepiston, concept:dunwandigepiston;
+    skos:narrowerTransitive concept:aqualockpiston, concept:dikwandigepiston, concept:dunwandigepiston;
+    skos:notation "piston";
+    skos:prefLabel "Piston (PS)"@nl;
+    skos:semanticRelation concept:aqualockpiston, concept:buis, concept:dikwandigepiston, concept:dunwandigepiston;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:platavegaarboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.platavegaarboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "platavegaarboor";
+    skos:prefLabel "Platte avegaarboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:pomp dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.pomp";
+    a skos:Concept;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:perspomp, concept:zuigpomp;
+    skos:narrowerTransitive concept:balgpomp, concept:bovcentrifugaalpomp, concept:dompelpomp12v, concept:dompelpompond, concept:dubkleppomp, concept:perspomp, concept:pulsslang, concept:slangenpomp, concept:vacuumpomp, concept:zuigpomp;
+    skos:notation "pomp";
+    skos:prefLabel "Pomp"@nl;
+    skos:semanticRelation concept:balgpomp, concept:bovcentrifugaalpomp, concept:dompelpomp12v, concept:dompelpompond, concept:dubkleppomp, concept:perspomp, concept:pulsslang, concept:slangenpomp, concept:vacuumpomp, concept:zuigpomp;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:pulsboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.pulsboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "pulsboor";
+    skos:prefLabel "Pulsboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:pulsslang dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.pulsslang";
+    a skos:Concept;
+    skos:broader concept:perspomp;
+    skos:broaderTransitive concept:perspomp, concept:pomp;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "pulsslang";
+    skos:prefLabel "Pulsslang (Kogelkleppomp)"@nl;
+    skos:semanticRelation concept:perspomp, concept:pomp;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:pvcaangescherpt30mm dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.pvcaangescherpt30mm";
+    a skos:Concept;
+    skos:broader concept:buis;
+    skos:broaderTransitive concept:buis;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "pvcaangescherpt30mm";
+    skos:prefLabel "PVC aangescherpte buis 30mm"@nl;
+    skos:semanticRelation concept:buis;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:ramguts dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ramguts";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:ramgutslin, concept:ramgutszlin;
+    skos:narrowerTransitive concept:ramgutslin, concept:ramgutszlin;
+    skos:notation "ramguts";
+    skos:prefLabel "Ramguts"@nl;
+    skos:semanticRelation concept:boor, concept:ramgutslin, concept:ramgutszlin;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:ramgutslin dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ramgutslin";
+    a skos:Concept;
+    skos:broader concept:ramguts;
+    skos:broaderTransitive concept:boor, concept:ramguts;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "ramgutslin";
+    skos:prefLabel "Ramguts met liner"@nl;
+    skos:semanticRelation concept:boor, concept:ramguts;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:ramgutszlin dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ramgutszlin";
+    a skos:Concept;
+    skos:broader concept:ramguts;
+    skos:broaderTransitive concept:boor, concept:ramguts;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "ramgutszlin";
+    skos:prefLabel "Ramguts zonder liner"@nl;
+    skos:semanticRelation concept:boor, concept:ramguts;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:ramkernboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ramkernboor";
+    a skos:Concept;
+    skos:broader concept:kerboor;
+    skos:broaderTransitive concept:boor, concept:kerboor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "ramkernboor";
+    skos:prefLabel "Ramkernboor"@nl;
+    skos:semanticRelation concept:boor, concept:kerboor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:ring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ring";
+    a skos:Concept;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:kopeckysteekset100cm3;
+    skos:narrowerTransitive concept:kopeckysteekset100cm3;
+    skos:notation "ring";
+    skos:prefLabel "Ring"@nl;
+    skos:semanticRelation concept:kopeckysteekset100cm3;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:riversideboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.riversideboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "riversideboor";
+    skos:prefLabel "Riverside boor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:rollenbeitel dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.rollenbeitel";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "rollenbeitel";
+    skos:prefLabel "Rollenbeitel"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:rvsstrooiselkader25cm dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.rvsstrooiselkader25cm";
+    a skos:Concept;
+    skos:broader concept:strooiselkader;
+    skos:broaderTransitive concept:strooiselkader;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "rvsstrooiselkader25cm";
+    skos:prefLabel "RVS Strooiselkader zijde 25cm"@nl;
+    skos:semanticRelation concept:strooiselkader;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:schep dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.schep";
+    a skos:Concept;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "schep";
+    skos:prefLabel "Schep"@nl;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:scheppot dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.scheppot";
+    a skos:Concept;
+    skos:broader concept:watermonsternemer;
+    skos:broaderTransitive concept:watermonsternemer;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "scheppot";
+    skos:prefLabel "Scheppot"@nl;
+    skos:semanticRelation concept:watermonsternemer;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:slagboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.slagboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "slagboor";
+    skos:prefLabel "Slagboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:slangenpomp dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.slangenpomp";
+    a skos:Concept;
+    skos:broader concept:zuigpomp;
+    skos:broaderTransitive concept:pomp, concept:zuigpomp;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "slangenpomp";
+    skos:prefLabel "Slangenpomp of Peristaltische pomp"@nl;
+    skos:semanticRelation concept:pomp, concept:zuigpomp;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:spade dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.spade";
+    a skos:Concept;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "spade";
+    skos:prefLabel "Spade"@nl;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:spiraalboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.spiraalboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "spiraalboor";
+    skos:prefLabel "Spiraalboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:spoelboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.spoelboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "spoelboor";
+    skos:prefLabel "Spoelboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:steekbus dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekbus";
+    a skos:Concept;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:ackermansteekbus, concept:dikwandig, concept:dunwandig;
+    skos:narrowerTransitive concept:ackermangedrukt, concept:ackermangeslagen, concept:ackermansteekbus, concept:dikwandig, concept:dikwandiggeslagen, concept:dunwandig, concept:dunwandiggedrukt, concept:dunwandiggeslagen;
+    skos:notation "steekbus";
+    skos:prefLabel "Steekbus"@nl;
+    skos:semanticRelation concept:ackermangedrukt, concept:ackermangeslagen, concept:ackermansteekbus, concept:dikwandig, concept:dikwandiggeslagen, concept:dunwandig, concept:dunwandiggedrukt, concept:dunwandiggeslagen;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:steekguts20mm dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekguts20mm";
+    a skos:Concept;
+    skos:broader concept:steekguts;
+    skos:broaderTransitive concept:steekguts;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "steekguts20mm";
+    skos:prefLabel "Steekguts 20mm"@nl;
+    skos:semanticRelation concept:steekguts;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:steekguts25mm dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekguts25mm";
+    a skos:Concept;
+    skos:broader concept:steekguts;
+    skos:broaderTransitive concept:steekguts;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "steekguts25mm";
+    skos:prefLabel "Steekguts 25mm"@nl;
+    skos:semanticRelation concept:steekguts;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:steekguts30mm dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekguts30mm";
+    a skos:Concept;
+    skos:broader concept:steekguts;
+    skos:broaderTransitive concept:steekguts;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "steekguts30mm";
+    skos:prefLabel "Steekguts 30mm"@nl;
+    skos:semanticRelation concept:steekguts;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:steekguts dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekguts";
+    a skos:Concept;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:steekguts20mm, concept:steekguts25mm, concept:steekguts30mm;
+    skos:narrowerTransitive concept:steekguts20mm, concept:steekguts25mm, concept:steekguts30mm;
+    skos:notation "steekguts";
+    skos:prefLabel "Steekguts"@nl;
+    skos:semanticRelation concept:steekguts20mm, concept:steekguts25mm, concept:steekguts30mm;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:steekhuls192cm3 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekhuls192cm3";
+    a skos:Concept;
+    skos:broader concept:steekhuls;
+    skos:broaderTransitive concept:steekhuls;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "steekhuls192cm3";
+    skos:prefLabel "Steekhuls 192cm3"@nl;
+    skos:semanticRelation concept:steekhuls;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:steekhuls dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekhuls";
+    a skos:Concept;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:steekhuls192cm3;
+    skos:narrowerTransitive concept:steekhuls192cm3;
+    skos:notation "steekhuls";
+    skos:prefLabel "Steekhuls"@nl;
+    skos:semanticRelation concept:steekhuls192cm3;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:steenboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steenboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "steenboor";
+    skos:prefLabel "Steenboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:strooiselkader dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.strooiselkader";
+    a skos:Concept;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:rvsstrooiselkader25cm;
+    skos:narrowerTransitive concept:rvsstrooiselkader25cm;
+    skos:notation "strooiselkader";
+    skos:prefLabel "Strooiselkader"@nl;
+    skos:semanticRelation concept:rvsstrooiselkader25cm;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:trilboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.trilboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "trilboor";
+    skos:prefLabel "Trilboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:tripkernbuis dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.tripkernbuis";
+    a skos:Concept;
+    skos:broader concept:kerboor;
+    skos:broaderTransitive concept:boor, concept:kerboor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "tripkernbuis";
+    skos:prefLabel "Trippelwandige kernbuis (CS-TT)"@nl;
+    skos:semanticRelation concept:boor, concept:kerboor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:trippelwandigekernbuis dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.trippelwandigekernbuis";
+    a skos:Concept;
+    skos:broader concept:buis;
+    skos:broaderTransitive concept:buis;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "trippelwandigekernbuis";
+    skos:prefLabel "Trippelwandige kernbuis (CS-TT)"@nl;
+    skos:semanticRelation concept:buis;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:vacuumpomp dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.vacuumpomp";
+    a skos:Concept;
+    skos:broader concept:zuigpomp;
+    skos:broaderTransitive concept:pomp, concept:zuigpomp;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "vacuumpomp";
+    skos:prefLabel "Vacuumpomp"@nl;
+    skos:semanticRelation concept:pomp, concept:zuigpomp;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:veenboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.veenboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "veenboor";
+    skos:prefLabel "Veenboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:vibrocore dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.vibrocore";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "vibrocore";
+    skos:prefLabel "Vibrocore"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:waterfles dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.waterfles";
+    a skos:Concept;
+    skos:broader concept:watermonsternemer;
+    skos:broaderTransitive concept:watermonsternemer;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "waterfles";
+    skos:prefLabel "Waterfles"@nl;
+    skos:semanticRelation concept:watermonsternemer;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:watermonsternemer dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.watermonsternemer";
+    a skos:Concept;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:kraan, concept:scheppot, concept:waterfles, concept:watertrap;
+    skos:narrowerTransitive concept:kraan, concept:scheppot, concept:waterfles, concept:watertrap;
+    skos:notation "watermonsternemer";
+    skos:prefLabel "Watermonsternemer"@nl;
+    skos:semanticRelation concept:kraan, concept:scheppot, concept:waterfles, concept:watertrap;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:watertrap dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.watertrap";
+    a skos:Concept;
+    skos:broader concept:watermonsternemer;
+    skos:broaderTransitive concept:watermonsternemer;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "watertrap";
+    skos:prefLabel "Watertrap"@nl;
+    skos:semanticRelation concept:watermonsternemer;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:zuigboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.zuigboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "zuigboor";
+    skos:prefLabel "Zuigboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:zuigerboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.zuigerboor";
+    a skos:Concept;
+    skos:broader concept:boor;
+    skos:broaderTransitive concept:boor;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:notation "zuigerboor";
+    skos:prefLabel "Zuigerboor"@nl;
+    skos:semanticRelation concept:boor;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:zuigpomp dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.zuigpomp";
+    a skos:Concept;
+    skos:broader concept:pomp;
+    skos:broaderTransitive concept:pomp;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:bovcentrifugaalpomp, concept:slangenpomp, concept:vacuumpomp;
+    skos:narrowerTransitive concept:bovcentrifugaalpomp, concept:slangenpomp, concept:vacuumpomp;
+    skos:notation "zuigpomp";
+    skos:prefLabel "Zuigpomp"@nl;
+    skos:semanticRelation concept:bovcentrifugaalpomp, concept:pomp, concept:slangenpomp, concept:vacuumpomp;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+conceptscheme:bemonsteringsinstrument dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.bemonsteringsinstrument";
+    a skos:ConceptScheme;
+    skos:definition "Beschrijving welke procedure werd gevolgd bij de bemonstering."@nl;
+    skos:hasTopConcept concept:ackermangedrukt, concept:ackermangeslagen, concept:ackermansteekbus, concept:aqualock, concept:aqualockpiston, concept:avegaarbooras, concept:balgpomp, concept:boor, concept:bovcentrifugaalpomp, concept:buis, concept:diamantboor, concept:dikwandig, concept:dikwandigepiston, concept:dikwandiggeslagen, concept:dompelpomp12v, concept:dompelpompond, concept:dubbelwandigekernbuis, concept:dubkernbuis, concept:dubkleppomp, concept:dunwandig, concept:dunwandigepiston, concept:dunwandiggedrukt, concept:dunwandiggeslagen, concept:edelmanboor, concept:enkelwandigkernbuis, concept:enkkernbuis, concept:geoprobe, concept:graafmachine, concept:grijpboor, concept:hamerboor, concept:handboor, concept:holavegaarboorhsas, concept:holavegaarboorlin, concept:kerboor, concept:kopeckysteekset100cm3, concept:kraan, concept:lansboor, concept:lepelboor, concept:luchthamer, concept:luchthevel, concept:perspomp, concept:piston, concept:platavegaarboor, concept:pomp, concept:pulsboor, concept:pulsslang, concept:pvcaangescherpt30mm, concept:ramguts, concept:ramgutslin, concept:ramgutszlin, concept:ramkernboor, concept:ring, concept:riversideboor, concept:rollenbeitel, concept:rvsstrooiselkader25cm, concept:schep, concept:scheppot, concept:slagboor, concept:slangenpomp, concept:spade, concept:spiraalboor, concept:spoelboor, concept:steekbus, concept:steekguts20mm, concept:steekguts25mm, concept:steekguts30mm, concept:steekguts, concept:steekhuls192cm3, concept:steekhuls, concept:steenboor, concept:strooiselkader, concept:trilboor, concept:tripkernbuis, concept:trippelwandigekernbuis, concept:vacuumpomp, concept:veenboor, concept:vibrocore, concept:waterfles, concept:watermonsternemer, concept:watertrap, concept:zuigboor, concept:zuigerboor, concept:zuigpomp;
+    skos:notation "bemonsteringsinstrument";
+    skos:note "Beschrijving welke procedure werd gevolgd bij de bemonstering."@nl;
+    skos:prefLabel "Codelijst bemonsteringsinstrument."@nl.

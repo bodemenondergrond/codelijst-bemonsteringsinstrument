@@ -1,2239 +1,2016 @@
 {
-    "@graph": [
-        {
-            "@id": "ct:edelmanboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Edelmanboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "edelmanboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cs:bemonsteringsinstrument",
-            "skos:definition": {
-                "@language": "nl",
-                "@value": "Beschrijving welke procedure werd gevolgd bij de bemonstering."
-            },
-            "skos:hasTopConcept": [
-                {
-                    "@id": "ct:dikwandiggeslagen"
-                },
-                {
-                    "@id": "ct:pulsslang"
-                },
-                {
-                    "@id": "ct:spoelboor"
-                },
-                {
-                    "@id": "ct:steekguts20mm"
-                },
-                {
-                    "@id": "ct:scheppot"
-                },
-                {
-                    "@id": "ct:strooiselkader"
-                },
-                {
-                    "@id": "ct:balgpomp"
-                },
-                {
-                    "@id": "ct:luchthevel"
-                },
-                {
-                    "@id": "ct:steekguts25mm"
-                },
-                {
-                    "@id": "ct:dubkernbuis"
-                },
-                {
-                    "@id": "ct:ramkernboor"
-                },
-                {
-                    "@id": "ct:ackermangeslagen"
-                },
-                {
-                    "@id": "ct:steekhuls"
-                },
-                {
-                    "@id": "ct:hamerboor"
-                },
-                {
-                    "@id": "ct:aqualock"
-                },
-                {
-                    "@id": "ct:buis"
-                },
-                {
-                    "@id": "ct:kraan"
-                },
-                {
-                    "@id": "ct:steekguts30mm"
-                },
-                {
-                    "@id": "ct:veenboor"
-                },
-                {
-                    "@id": "ct:watertrap"
-                },
-                {
-                    "@id": "ct:zuigerboor"
-                },
-                {
-                    "@id": "ct:ramgutszlin"
-                },
-                {
-                    "@id": "ct:holavegaarboorhsas"
-                },
-                {
-                    "@id": "ct:ramguts"
-                },
-                {
-                    "@id": "ct:trilboor"
-                },
-                {
-                    "@id": "ct:schep"
-                },
-                {
-                    "@id": "ct:lansboor"
-                },
-                {
-                    "@id": "ct:platavegaarboor"
-                },
-                {
-                    "@id": "ct:dikwandigepiston"
-                },
-                {
-                    "@id": "ct:ackermangedrukt"
-                },
-                {
-                    "@id": "ct:watermonsternemer"
-                },
-                {
-                    "@id": "ct:steekbus"
-                },
-                {
-                    "@id": "ct:ring"
-                },
-                {
-                    "@id": "ct:ackermansteekbus"
-                },
-                {
-                    "@id": "ct:pulsboor"
-                },
-                {
-                    "@id": "ct:rollenbeitel"
-                },
-                {
-                    "@id": "ct:geoprobe"
-                },
-                {
-                    "@id": "ct:enkelwandigkernbuis"
-                },
-                {
-                    "@id": "ct:ramgutslin"
-                },
-                {
-                    "@id": "ct:spade"
-                },
-                {
-                    "@id": "ct:dompelpomp12v"
-                },
-                {
-                    "@id": "ct:dikwandig"
-                },
-                {
-                    "@id": "ct:dunwandigepiston"
-                },
-                {
-                    "@id": "ct:boor"
-                },
-                {
-                    "@id": "ct:aqualockpiston"
-                },
-                {
-                    "@id": "ct:pomp"
-                },
-                {
-                    "@id": "ct:edelmanboor"
-                },
-                {
-                    "@id": "ct:diamantboor"
-                },
-                {
-                    "@id": "ct:bovcentrifugaalpomp"
-                },
-                {
-                    "@id": "ct:steekguts"
-                },
-                {
-                    "@id": "ct:handboor"
-                },
-                {
-                    "@id": "ct:riversideboor"
-                },
-                {
-                    "@id": "ct:steenboor"
-                },
-                {
-                    "@id": "ct:piston"
-                },
-                {
-                    "@id": "ct:trippelwandigekernbuis"
-                },
-                {
-                    "@id": "ct:dubkleppomp"
-                },
-                {
-                    "@id": "ct:dunwandiggeslagen"
-                },
-                {
-                    "@id": "ct:pvcaangescherpt30mm"
-                },
-                {
-                    "@id": "ct:zuigpomp"
-                },
-                {
-                    "@id": "ct:dunwandig"
-                },
-                {
-                    "@id": "ct:enkkernbuis"
-                },
-                {
-                    "@id": "ct:luchthamer"
-                },
-                {
-                    "@id": "ct:graafmachine"
-                },
-                {
-                    "@id": "ct:lepelboor"
-                },
-                {
-                    "@id": "ct:zuigboor"
-                },
-                {
-                    "@id": "ct:waterfles"
-                },
-                {
-                    "@id": "ct:grijpboor"
-                },
-                {
-                    "@id": "ct:dubbelwandigekernbuis"
-                },
-                {
-                    "@id": "ct:vibrocore"
-                },
-                {
-                    "@id": "ct:rvsstrooiselkader25cm"
-                },
-                {
-                    "@id": "ct:vacuumpomp"
-                },
-                {
-                    "@id": "ct:kerboor"
-                },
-                {
-                    "@id": "ct:holavegaarboorlin"
-                },
-                {
-                    "@id": "ct:steekhuls192cm3"
-                },
-                {
-                    "@id": "ct:avegaarbooras"
-                },
-                {
-                    "@id": "ct:tripkernbuis"
-                },
-                {
-                    "@id": "ct:spiraalboor"
-                },
-                {
-                    "@id": "ct:slangenpomp"
-                },
-                {
-                    "@id": "ct:dunwandiggedrukt"
-                },
-                {
-                    "@id": "ct:dompelpompond"
-                },
-                {
-                    "@id": "ct:perspomp"
-                },
-                {
-                    "@id": "ct:kopeckysteekset100cm3"
-                },
-                {
-                    "@id": "ct:slagboor"
-                }
-            ],
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Codelijst bemonsteringsinstrument."
-            },
-            "@type": "skos:ConceptScheme",
-            "dc:identifier": "bemonsteringsinstrument"
-        },
-        {
-            "@id": "ct:boor",
-            "skos:narrower": [
-                {
-                    "@id": "ct:platavegaarboor"
-                },
-                {
-                    "@id": "ct:kerboor"
-                },
-                {
-                    "@id": "ct:hamerboor"
-                },
-                {
-                    "@id": "ct:zuigboor"
-                },
-                {
-                    "@id": "ct:handboor"
-                },
-                {
-                    "@id": "ct:holavegaarboorhsas"
-                },
-                {
-                    "@id": "ct:zuigerboor"
-                },
-                {
-                    "@id": "ct:slagboor"
-                },
-                {
-                    "@id": "ct:rollenbeitel"
-                },
-                {
-                    "@id": "ct:luchthamer"
-                },
-                {
-                    "@id": "ct:grijpboor"
-                },
-                {
-                    "@id": "ct:pulsboor"
-                },
-                {
-                    "@id": "ct:trilboor"
-                },
-                {
-                    "@id": "ct:ramguts"
-                },
-                {
-                    "@id": "ct:veenboor"
-                },
-                {
-                    "@id": "ct:riversideboor"
-                },
-                {
-                    "@id": "ct:lansboor"
-                },
-                {
-                    "@id": "ct:lepelboor"
-                },
-                {
-                    "@id": "ct:luchthevel"
-                },
-                {
-                    "@id": "ct:spiraalboor"
-                },
-                {
-                    "@id": "ct:geoprobe"
-                },
-                {
-                    "@id": "ct:diamantboor"
-                },
-                {
-                    "@id": "ct:vibrocore"
-                },
-                {
-                    "@id": "ct:edelmanboor"
-                },
-                {
-                    "@id": "ct:spoelboor"
-                },
-                {
-                    "@id": "ct:steenboor"
-                },
-                {
-                    "@id": "ct:avegaarbooras"
-                }
-            ],
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Boor"
-            },
-            "dc:identifier": "boor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:dubkernbuis",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Dubbelwandige kernbuis (CS-DT)"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:kerboor"
-            },
-            "dc:identifier": "dubkernbuis",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:kerboor",
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:narrower": [
-                {
-                    "@id": "ct:enkkernbuis"
-                },
-                {
-                    "@id": "ct:ramkernboor"
-                },
-                {
-                    "@id": "ct:tripkernbuis"
-                },
-                {
-                    "@id": "ct:dubkernbuis"
-                }
-            ],
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "@type": "skos:Concept",
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "kerboor",
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Kernboor"
-            }
-        },
-        {
-            "@id": "ct:steekguts20mm",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Steekguts 20mm"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:steekguts"
-            },
-            "dc:identifier": "steekguts20mm",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:steekguts",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Steekguts"
-            },
-            "skos:narrower": [
-                {
-                    "@id": "ct:steekguts30mm"
-                },
-                {
-                    "@id": "ct:steekguts25mm"
-                },
-                {
-                    "@id": "ct:steekguts20mm"
-                }
-            ],
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "dc:identifier": "steekguts",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:luchthevel",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Luchthevel"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "luchthevel",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:steekbus",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Steekbus"
-            },
-            "skos:narrower": [
-                {
-                    "@id": "ct:dunwandig"
-                },
-                {
-                    "@id": "ct:dikwandig"
-                },
-                {
-                    "@id": "ct:ackermansteekbus"
-                }
-            ],
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "dc:identifier": "steekbus",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:dunwandig",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Dunwandige steekbus"
-            },
-            "skos:narrower": [
-                {
-                    "@id": "ct:dunwandiggedrukt"
-                },
-                {
-                    "@id": "ct:dunwandiggeslagen"
-                }
-            ],
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:steekbus"
-            },
-            "dc:identifier": "dunwandig",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:dikwandig",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Dikwandige steekbus"
-            },
-            "skos:narrower": {
-                "@id": "ct:dikwandiggeslagen"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:steekbus"
-            },
-            "dc:identifier": "dikwandig",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:ackermansteekbus",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Ackerman steekbus"
-            },
-            "skos:narrower": [
-                {
-                    "@id": "ct:ackermangedrukt"
-                },
-                {
-                    "@id": "ct:ackermangeslagen"
-                }
-            ],
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:steekbus"
-            },
-            "dc:identifier": "ackermansteekbus",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:platavegaarboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Platte avegaarboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "platavegaarboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:avegaarbooras",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Avegaarboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "avegaarbooras",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:dunwandiggeslagen",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Dunwandige steekbus - geslagen (OS-T/W-PE)"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:dunwandig"
-            },
-            "dc:identifier": "dunwandiggeslagen",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:spiraalboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Spiraalboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "spiraalboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:dikwandiggeslagen",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Dikwandige steekbus - geslagen (OS-TK/W-PE)"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:dikwandig"
-            },
-            "dc:identifier": "dikwandiggeslagen",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:pulsslang",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Pulsslang (Kogelkleppomp)"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:perspomp"
-            },
-            "dc:identifier": "pulsslang",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:spoelboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Spoelboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "spoelboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:scheppot",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Scheppot"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:watermonsternemer"
-            },
-            "dc:identifier": "scheppot",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:strooiselkader",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Strooiselkader"
-            },
-            "skos:narrower": {
-                "@id": "ct:rvsstrooiselkader25cm"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "dc:identifier": "strooiselkader",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:balgpomp",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Balgpomp (Gasdruksysteem)"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:perspomp"
-            },
-            "dc:identifier": "balgpomp",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:steekguts25mm",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Steekguts 25mm"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:steekguts"
-            },
-            "dc:identifier": "steekguts25mm",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:ramkernboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Ramkernboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:kerboor"
-            },
-            "dc:identifier": "ramkernboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:ackermangeslagen",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Ackerman steekbus - geslagen"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:ackermansteekbus"
-            },
-            "dc:identifier": "ackermangeslagen",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:steekhuls",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Steekhuls"
-            },
-            "skos:narrower": {
-                "@id": "ct:steekhuls192cm3"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "dc:identifier": "steekhuls",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:hamerboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Hamerboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "hamerboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:aqualock",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Aqualock"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:buis"
-            },
-            "dc:identifier": "aqualock",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:buis",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "@type": "skos:Concept",
-            "skos:narrower": [
-                {
-                    "@id": "ct:enkelwandigkernbuis"
-                },
-                {
-                    "@id": "ct:trippelwandigekernbuis"
-                },
-                {
-                    "@id": "ct:aqualock"
-                },
-                {
-                    "@id": "ct:piston"
-                },
-                {
-                    "@id": "ct:dubbelwandigekernbuis"
-                },
-                {
-                    "@id": "ct:pvcaangescherpt30mm"
-                }
-            ],
-            "dc:identifier": "buis",
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Buis"
-            }
-        },
-        {
-            "@id": "ct:kraan",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Kraan"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:watermonsternemer"
-            },
-            "dc:identifier": "kraan",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:steekguts30mm",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Steekguts 30mm"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:steekguts"
-            },
-            "dc:identifier": "steekguts30mm",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:veenboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Veenboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "veenboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:watertrap",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Watertrap"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:watermonsternemer"
-            },
-            "dc:identifier": "watertrap",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:zuigerboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Zuigerboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "zuigerboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:ramgutszlin",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Ramguts zonder liner"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:ramguts"
-            },
-            "dc:identifier": "ramgutszlin",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:holavegaarboorhsas",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Holle avegaarboor"
-            },
-            "skos:narrower": {
-                "@id": "ct:holavegaarboorlin"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "holavegaarboorhsas",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:ramguts",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Ramguts"
-            },
-            "skos:narrower": [
-                {
-                    "@id": "ct:ramgutslin"
-                },
-                {
-                    "@id": "ct:ramgutszlin"
-                }
-            ],
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "ramguts",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:trilboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Trilboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "trilboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:schep",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Schep"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "dc:identifier": "schep",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:lansboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Lansboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "lansboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:dikwandigepiston",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Dikwandige piston"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:piston"
-            },
-            "dc:identifier": "dikwandigepiston",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:ackermangedrukt",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Ackerman steekbus - gedrukt"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:ackermansteekbus"
-            },
-            "dc:identifier": "ackermangedrukt",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:watermonsternemer",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Watermonsternemer"
-            },
-            "skos:narrower": [
-                {
-                    "@id": "ct:scheppot"
-                },
-                {
-                    "@id": "ct:kraan"
-                },
-                {
-                    "@id": "ct:waterfles"
-                },
-                {
-                    "@id": "ct:watertrap"
-                }
-            ],
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "dc:identifier": "watermonsternemer",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:ring",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Ring"
-            },
-            "skos:narrower": {
-                "@id": "ct:kopeckysteekset100cm3"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "dc:identifier": "ring",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:pulsboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Pulsboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "pulsboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:rollenbeitel",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Rollenbeitel"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "rollenbeitel",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:geoprobe",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Geoprobe"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "geoprobe",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:enkelwandigkernbuis",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Enkelwandige kernbuis (CS-ST)"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:buis"
-            },
-            "dc:identifier": "enkelwandigkernbuis",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:ramgutslin",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Ramguts met liner"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:ramguts"
-            },
-            "dc:identifier": "ramgutslin",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:spade",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Spade"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "dc:identifier": "spade",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:dompelpomp12v",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Dompelpomp (12V DCpompjes)"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:perspomp"
-            },
-            "dc:identifier": "dompelpomp12v",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:dunwandigepiston",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Dunwandige piston"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:piston"
-            },
-            "dc:identifier": "dunwandigepiston",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:aqualockpiston",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Aqualock"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:piston"
-            },
-            "dc:identifier": "aqualockpiston",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:pomp",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Pomp"
-            },
-            "skos:narrower": [
-                {
-                    "@id": "ct:zuigpomp"
-                },
-                {
-                    "@id": "ct:perspomp"
-                }
-            ],
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "dc:identifier": "pomp",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:diamantboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Diamantboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "diamantboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:bovcentrifugaalpomp",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Bovengrondse centrifugaalpomp"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:zuigpomp"
-            },
-            "dc:identifier": "bovcentrifugaalpomp",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:handboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Handboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "handboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:riversideboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Riverside boor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "riversideboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:steenboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Steenboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "steenboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:piston",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Piston (PS)"
-            },
-            "skos:narrower": [
-                {
-                    "@id": "ct:dunwandigepiston"
-                },
-                {
-                    "@id": "ct:dikwandigepiston"
-                },
-                {
-                    "@id": "ct:aqualockpiston"
-                }
-            ],
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:buis"
-            },
-            "dc:identifier": "piston",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:trippelwandigekernbuis",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Trippelwandige kernbuis (CS-TT)"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:buis"
-            },
-            "dc:identifier": "trippelwandigekernbuis",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:dubkleppomp",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Dubbele kleppomp"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:perspomp"
-            },
-            "dc:identifier": "dubkleppomp",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:pvcaangescherpt30mm",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "PVC aangescherpte buis 30mm"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:buis"
-            },
-            "dc:identifier": "pvcaangescherpt30mm",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:zuigpomp",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Zuigpomp"
-            },
-            "skos:narrower": [
-                {
-                    "@id": "ct:slangenpomp"
-                },
-                {
-                    "@id": "ct:bovcentrifugaalpomp"
-                },
-                {
-                    "@id": "ct:vacuumpomp"
-                }
-            ],
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:pomp"
-            },
-            "dc:identifier": "zuigpomp",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:enkkernbuis",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Enkelwandige kernbuis (CS-ST)"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:kerboor"
-            },
-            "dc:identifier": "enkkernbuis",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:luchthamer",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Luchthamer"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "luchthamer",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:graafmachine",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Graafmachine"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "dc:identifier": "graafmachine",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:lepelboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Lepelboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "lepelboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:zuigboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Zuigboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "zuigboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:waterfles",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Waterfles"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:watermonsternemer"
-            },
-            "dc:identifier": "waterfles",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:grijpboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Grijpboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "grijpboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:dubbelwandigekernbuis",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Dubbelwandige kernbuis (CS-DT)"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:buis"
-            },
-            "dc:identifier": "dubbelwandigekernbuis",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:vibrocore",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Vibrocore"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "vibrocore",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:rvsstrooiselkader25cm",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "RVS Strooiselkader zijde 25cm"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:strooiselkader"
-            },
-            "dc:identifier": "rvsstrooiselkader25cm",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:vacuumpomp",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Vacuumpomp"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:zuigpomp"
-            },
-            "dc:identifier": "vacuumpomp",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:holavegaarboorlin",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Holle avegaarboor met liner"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:holavegaarboorhsas"
-            },
-            "dc:identifier": "holavegaarboorlin",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:steekhuls192cm3",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Steekhuls 192cm3"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:steekhuls"
-            },
-            "dc:identifier": "steekhuls192cm3",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:tripkernbuis",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Trippelwandige kernbuis (CS-TT)"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:kerboor"
-            },
-            "dc:identifier": "tripkernbuis",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:slangenpomp",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Slangenpomp of Peristaltische pomp"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:zuigpomp"
-            },
-            "dc:identifier": "slangenpomp",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:dunwandiggedrukt",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Dunwandige steekbus - gedrukt (OS-T/W-PU)"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:dunwandig"
-            },
-            "dc:identifier": "dunwandiggedrukt",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:dompelpompond",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Dompelpomp (Onderwatercentrifugaalpomp)"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:perspomp"
-            },
-            "dc:identifier": "dompelpompond",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:perspomp",
-            "skos:narrower": [
-                {
-                    "@id": "ct:dubkleppomp"
-                },
-                {
-                    "@id": "ct:dompelpomp12v"
-                },
-                {
-                    "@id": "ct:dompelpompond"
-                },
-                {
-                    "@id": "ct:pulsslang"
-                },
-                {
-                    "@id": "ct:balgpomp"
-                }
-            ],
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Perspomp"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:pomp"
-            },
-            "dc:identifier": "perspomp",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:kopeckysteekset100cm3",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Kopecky steekset 100cm3"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:ring"
-            },
-            "dc:identifier": "kopeckysteekset100cm3",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:slagboor",
-            "skos:topConceptOf": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Slagboor"
-            },
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:broader": {
-                "@id": "ct:boor"
-            },
-            "dc:identifier": "slagboor",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "colt:bemonsteringsinstrumenten",
-            "skos:member": [
-                {
-                    "@id": "ct:grijpboor"
-                },
-                {
-                    "@id": "ct:scheppot"
-                },
-                {
-                    "@id": "ct:buis"
-                },
-                {
-                    "@id": "ct:trippelwandigekernbuis"
-                },
-                {
-                    "@id": "ct:ackermansteekbus"
-                },
-                {
-                    "@id": "ct:holavegaarboorlin"
-                },
-                {
-                    "@id": "ct:schep"
-                },
-                {
-                    "@id": "ct:enkkernbuis"
-                },
-                {
-                    "@id": "ct:vacuumpomp"
-                },
-                {
-                    "@id": "ct:ramguts"
-                },
-                {
-                    "@id": "ct:dubkleppomp"
-                },
-                {
-                    "@id": "ct:ring"
-                },
-                {
-                    "@id": "ct:spade"
-                },
-                {
-                    "@id": "ct:steekguts30mm"
-                },
-                {
-                    "@id": "ct:aqualock"
-                },
-                {
-                    "@id": "ct:strooiselkader"
-                },
-                {
-                    "@id": "ct:zuigboor"
-                },
-                {
-                    "@id": "ct:steekguts25mm"
-                },
-                {
-                    "@id": "ct:pulsslang"
-                },
-                {
-                    "@id": "ct:dompelpompond"
-                },
-                {
-                    "@id": "ct:veenboor"
-                },
-                {
-                    "@id": "ct:boor"
-                },
-                {
-                    "@id": "ct:avegaarbooras"
-                },
-                {
-                    "@id": "ct:steekhuls192cm3"
-                },
-                {
-                    "@id": "ct:kopeckysteekset100cm3"
-                },
-                {
-                    "@id": "ct:steekhuls"
-                },
-                {
-                    "@id": "ct:edelmanboor"
-                },
-                {
-                    "@id": "ct:trilboor"
-                },
-                {
-                    "@id": "ct:dikwandigepiston"
-                },
-                {
-                    "@id": "ct:dikwandig"
-                },
-                {
-                    "@id": "ct:ackermangeslagen"
-                },
-                {
-                    "@id": "ct:ramgutszlin"
-                },
-                {
-                    "@id": "ct:luchthamer"
-                },
-                {
-                    "@id": "ct:lansboor"
-                },
-                {
-                    "@id": "ct:bovcentrifugaalpomp"
-                },
-                {
-                    "@id": "ct:geoprobe"
-                },
-                {
-                    "@id": "ct:zuigerboor"
-                },
-                {
-                    "@id": "ct:slangenpomp"
-                },
-                {
-                    "@id": "ct:dubkernbuis"
-                },
-                {
-                    "@id": "ct:steenboor"
-                },
-                {
-                    "@id": "ct:slagboor"
-                },
-                {
-                    "@id": "ct:piston"
-                },
-                {
-                    "@id": "ct:kraan"
-                },
-                {
-                    "@id": "ct:dompelpomp12v"
-                },
-                {
-                    "@id": "ct:dikwandiggeslagen"
-                },
-                {
-                    "@id": "ct:steekguts"
-                },
-                {
-                    "@id": "ct:pvcaangescherpt30mm"
-                },
-                {
-                    "@id": "ct:dunwandigepiston"
-                },
-                {
-                    "@id": "ct:riversideboor"
-                },
-                {
-                    "@id": "ct:ramkernboor"
-                },
-                {
-                    "@id": "ct:ramgutslin"
-                },
-                {
-                    "@id": "ct:spiraalboor"
-                },
-                {
-                    "@id": "ct:dunwandig"
-                },
-                {
-                    "@id": "ct:balgpomp"
-                },
-                {
-                    "@id": "ct:kerboor"
-                },
-                {
-                    "@id": "ct:rollenbeitel"
-                },
-                {
-                    "@id": "ct:pulsboor"
-                },
-                {
-                    "@id": "ct:tripkernbuis"
-                },
-                {
-                    "@id": "ct:waterfles"
-                },
-                {
-                    "@id": "ct:platavegaarboor"
-                },
-                {
-                    "@id": "ct:perspomp"
-                },
-                {
-                    "@id": "ct:rvsstrooiselkader25cm"
-                },
-                {
-                    "@id": "ct:pomp"
-                },
-                {
-                    "@id": "ct:handboor"
-                },
-                {
-                    "@id": "ct:luchthevel"
-                },
-                {
-                    "@id": "ct:holavegaarboorhsas"
-                },
-                {
-                    "@id": "ct:enkelwandigkernbuis"
-                },
-                {
-                    "@id": "ct:dunwandiggedrukt"
-                },
-                {
-                    "@id": "ct:graafmachine"
-                },
-                {
-                    "@id": "ct:ackermangedrukt"
-                },
-                {
-                    "@id": "ct:steekguts20mm"
-                },
-                {
-                    "@id": "ct:zuigpomp"
-                },
-                {
-                    "@id": "ct:spoelboor"
-                },
-                {
-                    "@id": "ct:aqualockpiston"
-                },
-                {
-                    "@id": "ct:diamantboor"
-                },
-                {
-                    "@id": "ct:watermonsternemer"
-                },
-                {
-                    "@id": "ct:watertrap"
-                },
-                {
-                    "@id": "ct:lepelboor"
-                },
-                {
-                    "@id": "ct:hamerboor"
-                },
-                {
-                    "@id": "ct:dubbelwandigekernbuis"
-                },
-                {
-                    "@id": "ct:vibrocore"
-                },
-                {
-                    "@id": "ct:dunwandiggeslagen"
-                },
-                {
-                    "@id": "ct:steekbus"
-                }
-            ],
-            "@type": "skos:Collection",
-            "skos:inScheme": {
-                "@id": "cs:bemonsteringsinstrument"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Collectie van bemonsteringsinstrumenten."
-            },
-            "dc:identifier": "bemonsteringsinstrumenten"
-        }
-    ],
     "@context": {
-        "cs": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
-        "ct": "https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/",
-        "dct": "http://purl.org/dc/terms/",
-        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "colt": "https://data.bodemenondergrond.vlaanderen.be/id/collection/bemonsteringsinstrument/",
+        "collections": {
+            "@type": "@id",
+            "@reverse": "member"
+        },
+        "id": "@id",
+        "type": {
+            "@id": "@type",
+            "@type": "@id"
+        },
+        "source": {
+            "@id": "http://purl.org/dc/terms/source",
+            "@type": "@id"
+        },
+        "sparql-service-description-name": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#name",
+            "@type": "@id"
+        },
+        "identifier": {
+            "@id": "http://purl.org/dc/terms/identifier",
+            "@type": "@id"
+        },
+        "hasVersion": {
+            "@id": "http://purl.org/dc/terms/hasVersion",
+            "@type": "@id"
+        },
+        "isVersionOf": {
+            "@id": "http://purl.org/dc/terms/isVersionOf",
+            "@type": "@id"
+        },
+        "label": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@language": "nl"
+        },
+        "distribution": {
+            "@id": "http://www.w3.org/ns/dcat#distribution",
+            "@type": "@id"
+        },
+        "alternative": {
+            "@id": "http://purl.org/dc/terms/alternative",
+            "@language": "nl"
+        },
+        "description": {
+            "@id": "http://purl.org/dc/terms/description",
+            "@language": "nl"
+        },
+        "spatial": {
+            "@id": "http://purl.org/dc/terms/spatial",
+            "@type": "@id"
+        },
+        "page": {
+            "@id": "http://xmlns.com/foaf/0.1/page",
+            "@type": "@id"
+        },
+        "theme": {
+            "@id": "http://www.w3.org/ns/dcat#theme",
+            "@type": "@id"
+        },
+        "title": {
+            "@id": "http://purl.org/dc/terms/title",
+            "@language": "nl"
+        },
+        "landingPage": {
+            "@id": "http://www.w3.org/ns/dcat#landingPage",
+            "@type": "@id"
+        },
+        "rightsHolder": {
+            "@id": "http://purl.org/dc/terms/rightsHolder",
+            "@type": "@id"
+        },
+        "language": "http://publications.europa.eu/resource/authority/language/",
+        "accrualPeriodicity": {
+            "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+            "@type": "@id"
+        },
+        "publisher": {
+            "@id": "http://purl.org/dc/terms/publisher",
+            "@type": "@id"
+        },
+        "dct.language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contactPoint": {
+            "@id": "http://www.w3.org/ns/dcat#contactPoint",
+            "@type": "@id"
+        },
+        "temporal": {
+            "@id": "http://purl.org/dc/terms/temporal",
+            "@type": "@id"
+        },
+        "issued": {
+            "@id": "http://purl.org/dc/terms/issued",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "accessRights": {
+            "@id": "http://purl.org/dc/terms/accessRights",
+            "@type": "@id"
+        },
+        "license": {
+            "@id": "http://purl.org/dc/terms/license",
+            "@type": "@id"
+        },
+        "accessURL": {
+            "@id": "http://www.w3.org/ns/dcat#accessURL",
+            "@type": "@id"
+        },
+        "compressFormat": {
+            "@id": "http://www.w3.org/ns/dcat#compressFormat",
+            "@type": "@id"
+        },
+        "downloadURL": {
+            "@id": "http://www.w3.org/ns/dcat#downloadURL",
+            "@type": "@id"
+        },
+        "mediaType": {
+            "@id": "http://www.w3.org/ns/dcat#mediaType",
+            "@type": "@id"
+        },
+        "format": {
+            "@id": "http://purl.org/dc/terms/format",
+            "@type": "@id"
+        },
+        "versionInfo": {
+            "@id": "http://spdx.org/rdf/terms#versionInfo"
+        },
+        "packageName": {
+            "@id": "http://spdx.org/rdf/terms#packageName"
+        },
+        "packageFileName": {
+            "@id": "http://spdx.org/rdf/terms#packageFileName"
+        },
+        "downloadLocation": {
+            "@id": "http://spdx.org/rdf/terms#downloadLocation",
+            "@type": "@id"
+        },
+        "relationshipType_packageOf": {
+            "@id": "http://spdx.org/rdf/terms#relationshipType_packageOf",
+            "@type": "@id"
+        },
+        "availableGraphs": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#availableGraphs",
+            "@type": "@id"
+        },
+        "resultFormat": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+            "@type": "@id"
+        },
+        "feature": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#feature",
+            "@type": "@id"
+        },
+        "supportedLanguage": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+            "@type": "@id"
+        },
+        "url": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#url",
+            "@type": "@id"
+        },
+        "comment": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "@language": "nl"
+        },
+        "defaultDataset": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultDataset",
+            "@type": "@id"
+        },
+        "endpoint": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "@type": "@id"
+        },
+        "namedGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#namedGraph",
+            "@type": "@id"
+        },
+        "homepage": {
+            "@id": "http://xmlns.com/foaf/0.1/homepage",
+            "@type": "@id"
+        },
+        "service": {
+            "@id": "http://www.w3.org/ns/dcat#service",
+            "@type": "@id"
+        },
+        "rootResource": {
+            "@id": "http://rdfs.org/ns/void#rootResource",
+            "@type": "@id"
+        },
+        "dataset": {
+            "@id": "http://www.w3.org/ns/dcat#dataset",
+            "@type": "@id"
+        },
+        "servesDataset": {
+            "@id": "http://www.w3.org/ns/dcat#servesDataset",
+            "@type": "@id"
+        },
+        "endpointDescription": {
+            "@id": "http://www.w3.org/ns/dcat#endpointDescription",
+            "@type": "@id"
+        },
+        "endpointURL": {
+            "@id": "http://www.w3.org/ns/dcat#endpointURL",
+            "@type": "@id"
+        },
+        "conformsTo": {
+            "@id": "http://purl.org/dc/terms/conformsTo",
+            "@type": "@id"
+        },
+        "dc.identifier": {
+            "@id": "http://purl.org/dc/elements/1.1/identifier"
+        },
+        "dc.language": {
+            "@id": "http://purl.org/dc/elements/1.1/language",
+            "@language": "nl"
+        },
+        "dc.source": {
+            "@id": "http://purl.org/dc/elements/1.1/source"
+        },
+        "version": {
+            "@id": "http://www.w3.org/2002/07/owl#versionInfo"
+        },
+        "name": {
+            "@id": "http://spdx.org/rdf/terms#name"
+        },
+        "seeAlso": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inScheme": {
+            "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+            "@type": "@id"
+        },
+        "topConceptOf": {
+            "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+            "@type": "@id"
+        },
+        "hasTopConcept": {
+            "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+            "@type": "@id"
+        },
+        "uri": {
+            "@id": "@id",
+            "@type": "@id"
+        },
+        "prefLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "nl"
+        },
+        "notation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#notation"
+        },
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "nl"
+        },
+        "note": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "nl"
+        },
+        "definition": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "nl"
+        },
+        "member": {
+            "@id": "http://www.w3.org/2004/02/skos/core#member",
+            "@type": "@id"
+        },
+        "casNumber": {
+            "@id": "http://dbpedia.org/ontology/casNumber"
+        },
+        "references": {
+            "@id": "http://purl.org/dc/terms/references",
+            "@type": "@id"
+        },
+        "isReferencedBy": {
+            "@id": "http://purl.org/dc/terms/isReferencedBy",
+            "@type": "@id"
+        },
+        "relation": {
+            "@id": "http://purl.org/dc/terms/relation",
+            "@type": "@id"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "broaderTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "broadMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#closeMatch",
+            "@type": "@id"
+        },
+        "exactMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#exactMatch",
+            "@type": "@id"
+        },
+        "mappingRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#mappingRelation",
+            "@type": "@id"
+        },
+        "broader": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "narrower": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+            "@type": "@id"
+        },
+        "narrowerTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+            "@type": "@id"
+        },
+        "narrowMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+            "@type": "@id"
+        },
+        "semanticRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "belongsTo": {
+            "@id": "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+            "@type": "@id"
+        },
+        "concept": "https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/",
+        "collectie": "https://data.bodemenondergrond.vlaanderen.be/id/collection/bemonsteringsinstrument/",
+        "access_right": "http://publications.europa.eu/resource/authority/access-right/",
+        "adms": "http://www.w3.org/ns/adms#",
+        "assettype": "http://purl.org/adms/assettype/",
+        "conceptscheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
+        "country": "http://publications.europa.eu/resource/authority/country/",
+        "datasets": "https://datasets.omgeving.vlaanderen.be/",
+        "datatheme_be": "http://vocab.belgif.be/auth/datatheme/",
+        "datatheme_eu": "http://publications.europa.eu/resource/authority/data-theme/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dcat": "http://www.w3.org/ns/dcat#",
         "dc": "http://purl.org/dc/elements/1.1/",
-        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
-    }
+        "dcterms": "http://purl.org/dc/terms/",
+        "dct": "http://purl.org/dc/terms/",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "file_type": "http://publications.europa.eu/resource/authority/file-type/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "formats": "http://www.w3.org/ns/formats/",
+        "frequency": "http://publications.europa.eu/resource/authority/frequency/",
+        "gemet": "http://www.eionet.europa.eu/gemet/concept/",
+        "licence": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/",
+        "metadata": "https://data.omgeving.vlaanderen.be/ns/metadata#",
+        "omg_catalog": "https://data.omgeving.vlaanderen.be/id/catalog/",
+        "omg_catalog_doc": "https://data.omgeving.vlaanderen.be/doc/catalog/",
+        "omg_collection": "https://data.bodemenondergrond.vlaanderen.be/id/collection/",
+        "omg_dataservice": "https://data.bodemenondergrond.vlaanderen.be/id/dataservice/",
+        "omg_dataset_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/",
+        "omg_dataset": "https://data.bodemenondergrond.vlaanderen.be/id/dataset/",
+        "omg_distribution_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/",
+        "omg_distribution": "https://data.bodemenondergrond.vlaanderen.be/id/distribution/",
+        "omg_graphcollection": "https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/",
+        "omg_graph": "https://data.bodemenondergrond.vlaanderen.be/id/graph/",
+        "omg_id": "https://data.bodemenondergrond.vlaanderen.be/id/",
+        "omg_named_graph": "https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/",
+        "omg_ontology": "https://data.bodemenondergrond.vlaanderen.be/id/ontology/",
+        "omg_package": "https://data.bodemenondergrond.vlaanderen.be/id/package/",
+        "omg_periodoftime": "https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/",
+        "omg_service": "https://data.bodemenondergrond.vlaanderen.be/id/service/",
+        "omg_vcard": "https://data.bodemenondergrond.vlaanderen.be/id/vcard/",
+        "ovo": "http://data.vlaanderen.be/id/organisatie/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "repo": "https://repo.omgeving.vlaanderen.be/artifactory/release/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "ssd": "http://www.w3.org/ns/sparql-service-description#",
+        "ts": "http://www.w3.org/ns/formats/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "void": "http://rdfs.org/ns/void#",
+        "wise": "http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@base": "https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/"
+    },
+    "graph": [
+        {
+            "id": "collectie:bemonsteringsinstrumenten",
+            "type": "skos:Collection",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.collection.bemonsteringsinstrument.bemonsteringsinstrumenten",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "member": [
+                "concept:ackermangedrukt",
+                "concept:ackermangeslagen",
+                "concept:ackermansteekbus",
+                "concept:aqualock",
+                "concept:aqualockpiston",
+                "concept:avegaarbooras",
+                "concept:balgpomp",
+                "concept:boor",
+                "concept:bovcentrifugaalpomp",
+                "concept:buis",
+                "concept:diamantboor",
+                "concept:dikwandig",
+                "concept:dikwandigepiston",
+                "concept:dikwandiggeslagen",
+                "concept:dompelpomp12v",
+                "concept:dompelpompond",
+                "concept:dubbelwandigekernbuis",
+                "concept:dubkernbuis",
+                "concept:dubkleppomp",
+                "concept:dunwandig",
+                "concept:dunwandigepiston",
+                "concept:dunwandiggedrukt",
+                "concept:dunwandiggeslagen",
+                "concept:edelmanboor",
+                "concept:enkelwandigkernbuis",
+                "concept:enkkernbuis",
+                "concept:geoprobe",
+                "concept:graafmachine",
+                "concept:grijpboor",
+                "concept:hamerboor",
+                "concept:handboor",
+                "concept:holavegaarboorhsas",
+                "concept:holavegaarboorlin",
+                "concept:kerboor",
+                "concept:kopeckysteekset100cm3",
+                "concept:kraan",
+                "concept:lansboor",
+                "concept:lepelboor",
+                "concept:luchthamer",
+                "concept:luchthevel",
+                "concept:perspomp",
+                "concept:piston",
+                "concept:platavegaarboor",
+                "concept:pomp",
+                "concept:pulsboor",
+                "concept:pulsslang",
+                "concept:pvcaangescherpt30mm",
+                "concept:ramguts",
+                "concept:ramgutslin",
+                "concept:ramgutszlin",
+                "concept:ramkernboor",
+                "concept:ring",
+                "concept:riversideboor",
+                "concept:rollenbeitel",
+                "concept:rvsstrooiselkader25cm",
+                "concept:schep",
+                "concept:scheppot",
+                "concept:slagboor",
+                "concept:slangenpomp",
+                "concept:spade",
+                "concept:spiraalboor",
+                "concept:spoelboor",
+                "concept:steekbus",
+                "concept:steekguts20mm",
+                "concept:steekguts25mm",
+                "concept:steekguts30mm",
+                "concept:steekguts",
+                "concept:steekhuls192cm3",
+                "concept:steekhuls",
+                "concept:steenboor",
+                "concept:strooiselkader",
+                "concept:trilboor",
+                "concept:tripkernbuis",
+                "concept:trippelwandigekernbuis",
+                "concept:vacuumpomp",
+                "concept:veenboor",
+                "concept:vibrocore",
+                "concept:waterfles",
+                "concept:watermonsternemer",
+                "concept:watertrap",
+                "concept:zuigboor",
+                "concept:zuigerboor",
+                "concept:zuigpomp"
+            ],
+            "notation": "bemonsteringsinstrumenten",
+            "prefLabel": "Collectie van bemonsteringsinstrumenten."
+        },
+        {
+            "id": "concept:ackermangedrukt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ackermangedrukt",
+            "broader": "concept:ackermansteekbus",
+            "broaderTransitive": [
+                "concept:ackermansteekbus",
+                "concept:steekbus"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "ackermangedrukt",
+            "prefLabel": "Ackerman steekbus - gedrukt",
+            "semanticRelation": [
+                "concept:ackermansteekbus",
+                "concept:steekbus"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:ackermangeslagen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ackermangeslagen",
+            "broader": "concept:ackermansteekbus",
+            "broaderTransitive": [
+                "concept:ackermansteekbus",
+                "concept:steekbus"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "ackermangeslagen",
+            "prefLabel": "Ackerman steekbus - geslagen",
+            "semanticRelation": [
+                "concept:ackermansteekbus",
+                "concept:steekbus"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:ackermansteekbus",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ackermansteekbus",
+            "broader": "concept:steekbus",
+            "broaderTransitive": "concept:steekbus",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": [
+                "concept:ackermangedrukt",
+                "concept:ackermangeslagen"
+            ],
+            "narrowerTransitive": [
+                "concept:ackermangedrukt",
+                "concept:ackermangeslagen"
+            ],
+            "notation": "ackermansteekbus",
+            "prefLabel": "Ackerman steekbus",
+            "semanticRelation": [
+                "concept:ackermangedrukt",
+                "concept:ackermangeslagen",
+                "concept:steekbus"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:aqualock",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.aqualock",
+            "broader": "concept:buis",
+            "broaderTransitive": "concept:buis",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "aqualock",
+            "prefLabel": "Aqualock",
+            "semanticRelation": "concept:buis",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:aqualockpiston",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.aqualockpiston",
+            "broader": "concept:piston",
+            "broaderTransitive": [
+                "concept:buis",
+                "concept:piston"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "aqualockpiston",
+            "prefLabel": "Aqualock",
+            "semanticRelation": [
+                "concept:buis",
+                "concept:piston"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:avegaarbooras",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.avegaarbooras",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "avegaarbooras",
+            "prefLabel": "Avegaarboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:balgpomp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.balgpomp",
+            "broader": "concept:perspomp",
+            "broaderTransitive": [
+                "concept:perspomp",
+                "concept:pomp"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "balgpomp",
+            "prefLabel": "Balgpomp (Gasdruksysteem)",
+            "semanticRelation": [
+                "concept:perspomp",
+                "concept:pomp"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:boor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": [
+                "concept:avegaarbooras",
+                "concept:diamantboor",
+                "concept:edelmanboor",
+                "concept:geoprobe",
+                "concept:grijpboor",
+                "concept:hamerboor",
+                "concept:handboor",
+                "concept:holavegaarboorhsas",
+                "concept:kerboor",
+                "concept:lansboor",
+                "concept:lepelboor",
+                "concept:luchthamer",
+                "concept:luchthevel",
+                "concept:platavegaarboor",
+                "concept:pulsboor",
+                "concept:ramguts",
+                "concept:riversideboor",
+                "concept:rollenbeitel",
+                "concept:slagboor",
+                "concept:spiraalboor",
+                "concept:spoelboor",
+                "concept:steenboor",
+                "concept:trilboor",
+                "concept:veenboor",
+                "concept:vibrocore",
+                "concept:zuigboor",
+                "concept:zuigerboor"
+            ],
+            "narrowerTransitive": [
+                "concept:avegaarbooras",
+                "concept:diamantboor",
+                "concept:dubkernbuis",
+                "concept:edelmanboor",
+                "concept:enkkernbuis",
+                "concept:geoprobe",
+                "concept:grijpboor",
+                "concept:hamerboor",
+                "concept:handboor",
+                "concept:holavegaarboorhsas",
+                "concept:holavegaarboorlin",
+                "concept:kerboor",
+                "concept:lansboor",
+                "concept:lepelboor",
+                "concept:luchthamer",
+                "concept:luchthevel",
+                "concept:platavegaarboor",
+                "concept:pulsboor",
+                "concept:ramguts",
+                "concept:ramgutslin",
+                "concept:ramgutszlin",
+                "concept:ramkernboor",
+                "concept:riversideboor",
+                "concept:rollenbeitel",
+                "concept:slagboor",
+                "concept:spiraalboor",
+                "concept:spoelboor",
+                "concept:steenboor",
+                "concept:trilboor",
+                "concept:tripkernbuis",
+                "concept:veenboor",
+                "concept:vibrocore",
+                "concept:zuigboor",
+                "concept:zuigerboor"
+            ],
+            "notation": "boor",
+            "prefLabel": "Boor",
+            "semanticRelation": [
+                "concept:avegaarbooras",
+                "concept:diamantboor",
+                "concept:dubkernbuis",
+                "concept:edelmanboor",
+                "concept:enkkernbuis",
+                "concept:geoprobe",
+                "concept:grijpboor",
+                "concept:hamerboor",
+                "concept:handboor",
+                "concept:holavegaarboorhsas",
+                "concept:holavegaarboorlin",
+                "concept:kerboor",
+                "concept:lansboor",
+                "concept:lepelboor",
+                "concept:luchthamer",
+                "concept:luchthevel",
+                "concept:platavegaarboor",
+                "concept:pulsboor",
+                "concept:ramguts",
+                "concept:ramgutslin",
+                "concept:ramgutszlin",
+                "concept:ramkernboor",
+                "concept:riversideboor",
+                "concept:rollenbeitel",
+                "concept:slagboor",
+                "concept:spiraalboor",
+                "concept:spoelboor",
+                "concept:steenboor",
+                "concept:trilboor",
+                "concept:tripkernbuis",
+                "concept:veenboor",
+                "concept:vibrocore",
+                "concept:zuigboor",
+                "concept:zuigerboor"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:bovcentrifugaalpomp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.bovcentrifugaalpomp",
+            "broader": "concept:zuigpomp",
+            "broaderTransitive": [
+                "concept:pomp",
+                "concept:zuigpomp"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "bovcentrifugaalpomp",
+            "prefLabel": "Bovengrondse centrifugaalpomp",
+            "semanticRelation": [
+                "concept:pomp",
+                "concept:zuigpomp"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:buis",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.buis",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": [
+                "concept:aqualock",
+                "concept:dubbelwandigekernbuis",
+                "concept:enkelwandigkernbuis",
+                "concept:piston",
+                "concept:pvcaangescherpt30mm",
+                "concept:trippelwandigekernbuis"
+            ],
+            "narrowerTransitive": [
+                "concept:aqualock",
+                "concept:aqualockpiston",
+                "concept:dikwandigepiston",
+                "concept:dubbelwandigekernbuis",
+                "concept:dunwandigepiston",
+                "concept:enkelwandigkernbuis",
+                "concept:piston",
+                "concept:pvcaangescherpt30mm",
+                "concept:trippelwandigekernbuis"
+            ],
+            "notation": "buis",
+            "prefLabel": "Buis",
+            "semanticRelation": [
+                "concept:aqualock",
+                "concept:aqualockpiston",
+                "concept:dikwandigepiston",
+                "concept:dubbelwandigekernbuis",
+                "concept:dunwandigepiston",
+                "concept:enkelwandigkernbuis",
+                "concept:piston",
+                "concept:pvcaangescherpt30mm",
+                "concept:trippelwandigekernbuis"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:diamantboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.diamantboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "diamantboor",
+            "prefLabel": "Diamantboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:dikwandig",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dikwandig",
+            "broader": "concept:steekbus",
+            "broaderTransitive": "concept:steekbus",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": "concept:dikwandiggeslagen",
+            "narrowerTransitive": "concept:dikwandiggeslagen",
+            "notation": "dikwandig",
+            "prefLabel": "Dikwandige steekbus",
+            "semanticRelation": [
+                "concept:dikwandiggeslagen",
+                "concept:steekbus"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:dikwandigepiston",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dikwandigepiston",
+            "broader": "concept:piston",
+            "broaderTransitive": [
+                "concept:buis",
+                "concept:piston"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "dikwandigepiston",
+            "prefLabel": "Dikwandige piston",
+            "semanticRelation": [
+                "concept:buis",
+                "concept:piston"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:dikwandiggeslagen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dikwandiggeslagen",
+            "broader": "concept:dikwandig",
+            "broaderTransitive": [
+                "concept:dikwandig",
+                "concept:steekbus"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "dikwandiggeslagen",
+            "prefLabel": "Dikwandige steekbus - geslagen (OS-TK/W-PE)",
+            "semanticRelation": [
+                "concept:dikwandig",
+                "concept:steekbus"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:dompelpomp12v",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dompelpomp12v",
+            "broader": "concept:perspomp",
+            "broaderTransitive": [
+                "concept:perspomp",
+                "concept:pomp"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "dompelpomp12v",
+            "prefLabel": "Dompelpomp (12V DCpompjes)",
+            "semanticRelation": [
+                "concept:perspomp",
+                "concept:pomp"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:dompelpompond",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dompelpompond",
+            "broader": "concept:perspomp",
+            "broaderTransitive": [
+                "concept:perspomp",
+                "concept:pomp"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "dompelpompond",
+            "prefLabel": "Dompelpomp (Onderwatercentrifugaalpomp)",
+            "semanticRelation": [
+                "concept:perspomp",
+                "concept:pomp"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:dubbelwandigekernbuis",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dubbelwandigekernbuis",
+            "broader": "concept:buis",
+            "broaderTransitive": "concept:buis",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "dubbelwandigekernbuis",
+            "prefLabel": "Dubbelwandige kernbuis (CS-DT)",
+            "semanticRelation": "concept:buis",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:dubkernbuis",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dubkernbuis",
+            "broader": "concept:kerboor",
+            "broaderTransitive": [
+                "concept:boor",
+                "concept:kerboor"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "dubkernbuis",
+            "prefLabel": "Dubbelwandige kernbuis (CS-DT)",
+            "semanticRelation": [
+                "concept:boor",
+                "concept:kerboor"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:dubkleppomp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dubkleppomp",
+            "broader": "concept:perspomp",
+            "broaderTransitive": [
+                "concept:perspomp",
+                "concept:pomp"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "dubkleppomp",
+            "prefLabel": "Dubbele kleppomp",
+            "semanticRelation": [
+                "concept:perspomp",
+                "concept:pomp"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:dunwandig",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dunwandig",
+            "broader": "concept:steekbus",
+            "broaderTransitive": "concept:steekbus",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": [
+                "concept:dunwandiggedrukt",
+                "concept:dunwandiggeslagen"
+            ],
+            "narrowerTransitive": [
+                "concept:dunwandiggedrukt",
+                "concept:dunwandiggeslagen"
+            ],
+            "notation": "dunwandig",
+            "prefLabel": "Dunwandige steekbus",
+            "semanticRelation": [
+                "concept:dunwandiggedrukt",
+                "concept:dunwandiggeslagen",
+                "concept:steekbus"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:dunwandigepiston",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dunwandigepiston",
+            "broader": "concept:piston",
+            "broaderTransitive": [
+                "concept:buis",
+                "concept:piston"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "dunwandigepiston",
+            "prefLabel": "Dunwandige piston",
+            "semanticRelation": [
+                "concept:buis",
+                "concept:piston"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:dunwandiggedrukt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dunwandiggedrukt",
+            "broader": "concept:dunwandig",
+            "broaderTransitive": [
+                "concept:dunwandig",
+                "concept:steekbus"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "dunwandiggedrukt",
+            "prefLabel": "Dunwandige steekbus - gedrukt (OS-T/W-PU)",
+            "semanticRelation": [
+                "concept:dunwandig",
+                "concept:steekbus"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:dunwandiggeslagen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.dunwandiggeslagen",
+            "broader": "concept:dunwandig",
+            "broaderTransitive": [
+                "concept:dunwandig",
+                "concept:steekbus"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "dunwandiggeslagen",
+            "prefLabel": "Dunwandige steekbus - geslagen (OS-T/W-PE)",
+            "semanticRelation": [
+                "concept:dunwandig",
+                "concept:steekbus"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:edelmanboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.edelmanboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "edelmanboor",
+            "prefLabel": "Edelmanboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:enkelwandigkernbuis",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.enkelwandigkernbuis",
+            "broader": "concept:buis",
+            "broaderTransitive": "concept:buis",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "enkelwandigkernbuis",
+            "prefLabel": "Enkelwandige kernbuis (CS-ST)",
+            "semanticRelation": "concept:buis",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:enkkernbuis",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.enkkernbuis",
+            "broader": "concept:kerboor",
+            "broaderTransitive": [
+                "concept:boor",
+                "concept:kerboor"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "enkkernbuis",
+            "prefLabel": "Enkelwandige kernbuis (CS-ST)",
+            "semanticRelation": [
+                "concept:boor",
+                "concept:kerboor"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:geoprobe",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.geoprobe",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "geoprobe",
+            "prefLabel": "Geoprobe",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:graafmachine",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.graafmachine",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "graafmachine",
+            "prefLabel": "Graafmachine",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:grijpboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.grijpboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "grijpboor",
+            "prefLabel": "Grijpboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:hamerboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.hamerboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "hamerboor",
+            "prefLabel": "Hamerboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:handboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.handboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "handboor",
+            "prefLabel": "Handboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:holavegaarboorhsas",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.holavegaarboorhsas",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": "concept:holavegaarboorlin",
+            "narrowerTransitive": "concept:holavegaarboorlin",
+            "notation": "holavegaarboorhsas",
+            "prefLabel": "Holle avegaarboor",
+            "semanticRelation": [
+                "concept:boor",
+                "concept:holavegaarboorlin"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:holavegaarboorlin",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.holavegaarboorlin",
+            "broader": "concept:holavegaarboorhsas",
+            "broaderTransitive": [
+                "concept:boor",
+                "concept:holavegaarboorhsas"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "holavegaarboorlin",
+            "prefLabel": "Holle avegaarboor met liner",
+            "semanticRelation": [
+                "concept:boor",
+                "concept:holavegaarboorhsas"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:kerboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.kerboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": [
+                "concept:dubkernbuis",
+                "concept:enkkernbuis",
+                "concept:ramkernboor",
+                "concept:tripkernbuis"
+            ],
+            "narrowerTransitive": [
+                "concept:dubkernbuis",
+                "concept:enkkernbuis",
+                "concept:ramkernboor",
+                "concept:tripkernbuis"
+            ],
+            "notation": "kerboor",
+            "prefLabel": "Kernboor",
+            "semanticRelation": [
+                "concept:boor",
+                "concept:dubkernbuis",
+                "concept:enkkernbuis",
+                "concept:ramkernboor",
+                "concept:tripkernbuis"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:kopeckysteekset100cm3",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.kopeckysteekset100cm3",
+            "broader": "concept:ring",
+            "broaderTransitive": "concept:ring",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "kopeckysteekset100cm3",
+            "prefLabel": "Kopecky steekset 100cm3",
+            "semanticRelation": "concept:ring",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:kraan",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.kraan",
+            "broader": "concept:watermonsternemer",
+            "broaderTransitive": "concept:watermonsternemer",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "kraan",
+            "prefLabel": "Kraan",
+            "semanticRelation": "concept:watermonsternemer",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:lansboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.lansboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "lansboor",
+            "prefLabel": "Lansboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:lepelboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.lepelboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "lepelboor",
+            "prefLabel": "Lepelboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:luchthamer",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.luchthamer",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "luchthamer",
+            "prefLabel": "Luchthamer",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:luchthevel",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.luchthevel",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "luchthevel",
+            "prefLabel": "Luchthevel",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:perspomp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.perspomp",
+            "broader": "concept:pomp",
+            "broaderTransitive": "concept:pomp",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": [
+                "concept:balgpomp",
+                "concept:dompelpomp12v",
+                "concept:dompelpompond",
+                "concept:dubkleppomp",
+                "concept:pulsslang"
+            ],
+            "narrowerTransitive": [
+                "concept:balgpomp",
+                "concept:dompelpomp12v",
+                "concept:dompelpompond",
+                "concept:dubkleppomp",
+                "concept:pulsslang"
+            ],
+            "notation": "perspomp",
+            "prefLabel": "Perspomp",
+            "semanticRelation": [
+                "concept:balgpomp",
+                "concept:dompelpomp12v",
+                "concept:dompelpompond",
+                "concept:dubkleppomp",
+                "concept:pomp",
+                "concept:pulsslang"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:piston",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.piston",
+            "broader": "concept:buis",
+            "broaderTransitive": "concept:buis",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": [
+                "concept:aqualockpiston",
+                "concept:dikwandigepiston",
+                "concept:dunwandigepiston"
+            ],
+            "narrowerTransitive": [
+                "concept:aqualockpiston",
+                "concept:dikwandigepiston",
+                "concept:dunwandigepiston"
+            ],
+            "notation": "piston",
+            "prefLabel": "Piston (PS)",
+            "semanticRelation": [
+                "concept:aqualockpiston",
+                "concept:buis",
+                "concept:dikwandigepiston",
+                "concept:dunwandigepiston"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:platavegaarboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.platavegaarboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "platavegaarboor",
+            "prefLabel": "Platte avegaarboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:pomp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.pomp",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": [
+                "concept:perspomp",
+                "concept:zuigpomp"
+            ],
+            "narrowerTransitive": [
+                "concept:balgpomp",
+                "concept:bovcentrifugaalpomp",
+                "concept:dompelpomp12v",
+                "concept:dompelpompond",
+                "concept:dubkleppomp",
+                "concept:perspomp",
+                "concept:pulsslang",
+                "concept:slangenpomp",
+                "concept:vacuumpomp",
+                "concept:zuigpomp"
+            ],
+            "notation": "pomp",
+            "prefLabel": "Pomp",
+            "semanticRelation": [
+                "concept:balgpomp",
+                "concept:bovcentrifugaalpomp",
+                "concept:dompelpomp12v",
+                "concept:dompelpompond",
+                "concept:dubkleppomp",
+                "concept:perspomp",
+                "concept:pulsslang",
+                "concept:slangenpomp",
+                "concept:vacuumpomp",
+                "concept:zuigpomp"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:pulsboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.pulsboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "pulsboor",
+            "prefLabel": "Pulsboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:pulsslang",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.pulsslang",
+            "broader": "concept:perspomp",
+            "broaderTransitive": [
+                "concept:perspomp",
+                "concept:pomp"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "pulsslang",
+            "prefLabel": "Pulsslang (Kogelkleppomp)",
+            "semanticRelation": [
+                "concept:perspomp",
+                "concept:pomp"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:pvcaangescherpt30mm",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.pvcaangescherpt30mm",
+            "broader": "concept:buis",
+            "broaderTransitive": "concept:buis",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "pvcaangescherpt30mm",
+            "prefLabel": "PVC aangescherpte buis 30mm",
+            "semanticRelation": "concept:buis",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:ramguts",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ramguts",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": [
+                "concept:ramgutslin",
+                "concept:ramgutszlin"
+            ],
+            "narrowerTransitive": [
+                "concept:ramgutslin",
+                "concept:ramgutszlin"
+            ],
+            "notation": "ramguts",
+            "prefLabel": "Ramguts",
+            "semanticRelation": [
+                "concept:boor",
+                "concept:ramgutslin",
+                "concept:ramgutszlin"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:ramgutslin",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ramgutslin",
+            "broader": "concept:ramguts",
+            "broaderTransitive": [
+                "concept:boor",
+                "concept:ramguts"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "ramgutslin",
+            "prefLabel": "Ramguts met liner",
+            "semanticRelation": [
+                "concept:boor",
+                "concept:ramguts"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:ramgutszlin",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ramgutszlin",
+            "broader": "concept:ramguts",
+            "broaderTransitive": [
+                "concept:boor",
+                "concept:ramguts"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "ramgutszlin",
+            "prefLabel": "Ramguts zonder liner",
+            "semanticRelation": [
+                "concept:boor",
+                "concept:ramguts"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:ramkernboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ramkernboor",
+            "broader": "concept:kerboor",
+            "broaderTransitive": [
+                "concept:boor",
+                "concept:kerboor"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "ramkernboor",
+            "prefLabel": "Ramkernboor",
+            "semanticRelation": [
+                "concept:boor",
+                "concept:kerboor"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:ring",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ring",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": "concept:kopeckysteekset100cm3",
+            "narrowerTransitive": "concept:kopeckysteekset100cm3",
+            "notation": "ring",
+            "prefLabel": "Ring",
+            "semanticRelation": "concept:kopeckysteekset100cm3",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:riversideboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.riversideboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "riversideboor",
+            "prefLabel": "Riverside boor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:rollenbeitel",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.rollenbeitel",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "rollenbeitel",
+            "prefLabel": "Rollenbeitel",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:rvsstrooiselkader25cm",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.rvsstrooiselkader25cm",
+            "broader": "concept:strooiselkader",
+            "broaderTransitive": "concept:strooiselkader",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "rvsstrooiselkader25cm",
+            "prefLabel": "RVS Strooiselkader zijde 25cm",
+            "semanticRelation": "concept:strooiselkader",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:schep",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.schep",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "schep",
+            "prefLabel": "Schep",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:scheppot",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.scheppot",
+            "broader": "concept:watermonsternemer",
+            "broaderTransitive": "concept:watermonsternemer",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "scheppot",
+            "prefLabel": "Scheppot",
+            "semanticRelation": "concept:watermonsternemer",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:slagboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.slagboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "slagboor",
+            "prefLabel": "Slagboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:slangenpomp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.slangenpomp",
+            "broader": "concept:zuigpomp",
+            "broaderTransitive": [
+                "concept:pomp",
+                "concept:zuigpomp"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "slangenpomp",
+            "prefLabel": "Slangenpomp of Peristaltische pomp",
+            "semanticRelation": [
+                "concept:pomp",
+                "concept:zuigpomp"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:spade",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.spade",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "spade",
+            "prefLabel": "Spade",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:spiraalboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.spiraalboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "spiraalboor",
+            "prefLabel": "Spiraalboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:spoelboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.spoelboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "spoelboor",
+            "prefLabel": "Spoelboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:steekbus",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekbus",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": [
+                "concept:ackermansteekbus",
+                "concept:dikwandig",
+                "concept:dunwandig"
+            ],
+            "narrowerTransitive": [
+                "concept:ackermangedrukt",
+                "concept:ackermangeslagen",
+                "concept:ackermansteekbus",
+                "concept:dikwandig",
+                "concept:dikwandiggeslagen",
+                "concept:dunwandig",
+                "concept:dunwandiggedrukt",
+                "concept:dunwandiggeslagen"
+            ],
+            "notation": "steekbus",
+            "prefLabel": "Steekbus",
+            "semanticRelation": [
+                "concept:ackermangedrukt",
+                "concept:ackermangeslagen",
+                "concept:ackermansteekbus",
+                "concept:dikwandig",
+                "concept:dikwandiggeslagen",
+                "concept:dunwandig",
+                "concept:dunwandiggedrukt",
+                "concept:dunwandiggeslagen"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:steekguts",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekguts",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": [
+                "concept:steekguts20mm",
+                "concept:steekguts25mm",
+                "concept:steekguts30mm"
+            ],
+            "narrowerTransitive": [
+                "concept:steekguts20mm",
+                "concept:steekguts25mm",
+                "concept:steekguts30mm"
+            ],
+            "notation": "steekguts",
+            "prefLabel": "Steekguts",
+            "semanticRelation": [
+                "concept:steekguts20mm",
+                "concept:steekguts25mm",
+                "concept:steekguts30mm"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:steekguts20mm",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekguts20mm",
+            "broader": "concept:steekguts",
+            "broaderTransitive": "concept:steekguts",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "steekguts20mm",
+            "prefLabel": "Steekguts 20mm",
+            "semanticRelation": "concept:steekguts",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:steekguts25mm",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekguts25mm",
+            "broader": "concept:steekguts",
+            "broaderTransitive": "concept:steekguts",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "steekguts25mm",
+            "prefLabel": "Steekguts 25mm",
+            "semanticRelation": "concept:steekguts",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:steekguts30mm",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekguts30mm",
+            "broader": "concept:steekguts",
+            "broaderTransitive": "concept:steekguts",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "steekguts30mm",
+            "prefLabel": "Steekguts 30mm",
+            "semanticRelation": "concept:steekguts",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:steekhuls",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekhuls",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": "concept:steekhuls192cm3",
+            "narrowerTransitive": "concept:steekhuls192cm3",
+            "notation": "steekhuls",
+            "prefLabel": "Steekhuls",
+            "semanticRelation": "concept:steekhuls192cm3",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:steekhuls192cm3",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steekhuls192cm3",
+            "broader": "concept:steekhuls",
+            "broaderTransitive": "concept:steekhuls",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "steekhuls192cm3",
+            "prefLabel": "Steekhuls 192cm3",
+            "semanticRelation": "concept:steekhuls",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:steenboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.steenboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "steenboor",
+            "prefLabel": "Steenboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:strooiselkader",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.strooiselkader",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": "concept:rvsstrooiselkader25cm",
+            "narrowerTransitive": "concept:rvsstrooiselkader25cm",
+            "notation": "strooiselkader",
+            "prefLabel": "Strooiselkader",
+            "semanticRelation": "concept:rvsstrooiselkader25cm",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:trilboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.trilboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "trilboor",
+            "prefLabel": "Trilboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:tripkernbuis",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.tripkernbuis",
+            "broader": "concept:kerboor",
+            "broaderTransitive": [
+                "concept:boor",
+                "concept:kerboor"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "tripkernbuis",
+            "prefLabel": "Trippelwandige kernbuis (CS-TT)",
+            "semanticRelation": [
+                "concept:boor",
+                "concept:kerboor"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:trippelwandigekernbuis",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.trippelwandigekernbuis",
+            "broader": "concept:buis",
+            "broaderTransitive": "concept:buis",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "trippelwandigekernbuis",
+            "prefLabel": "Trippelwandige kernbuis (CS-TT)",
+            "semanticRelation": "concept:buis",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:vacuumpomp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.vacuumpomp",
+            "broader": "concept:zuigpomp",
+            "broaderTransitive": [
+                "concept:pomp",
+                "concept:zuigpomp"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "vacuumpomp",
+            "prefLabel": "Vacuumpomp",
+            "semanticRelation": [
+                "concept:pomp",
+                "concept:zuigpomp"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:veenboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.veenboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "veenboor",
+            "prefLabel": "Veenboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:vibrocore",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.vibrocore",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "vibrocore",
+            "prefLabel": "Vibrocore",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:waterfles",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.waterfles",
+            "broader": "concept:watermonsternemer",
+            "broaderTransitive": "concept:watermonsternemer",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "waterfles",
+            "prefLabel": "Waterfles",
+            "semanticRelation": "concept:watermonsternemer",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:watermonsternemer",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.watermonsternemer",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": [
+                "concept:kraan",
+                "concept:scheppot",
+                "concept:waterfles",
+                "concept:watertrap"
+            ],
+            "narrowerTransitive": [
+                "concept:kraan",
+                "concept:scheppot",
+                "concept:waterfles",
+                "concept:watertrap"
+            ],
+            "notation": "watermonsternemer",
+            "prefLabel": "Watermonsternemer",
+            "semanticRelation": [
+                "concept:kraan",
+                "concept:scheppot",
+                "concept:waterfles",
+                "concept:watertrap"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:watertrap",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.watertrap",
+            "broader": "concept:watermonsternemer",
+            "broaderTransitive": "concept:watermonsternemer",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "watertrap",
+            "prefLabel": "Watertrap",
+            "semanticRelation": "concept:watermonsternemer",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:zuigboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.zuigboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "zuigboor",
+            "prefLabel": "Zuigboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:zuigerboor",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.zuigerboor",
+            "broader": "concept:boor",
+            "broaderTransitive": "concept:boor",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "notation": "zuigerboor",
+            "prefLabel": "Zuigerboor",
+            "semanticRelation": "concept:boor",
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:zuigpomp",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.zuigpomp",
+            "broader": "concept:pomp",
+            "broaderTransitive": "concept:pomp",
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": [
+                "concept:bovcentrifugaalpomp",
+                "concept:slangenpomp",
+                "concept:vacuumpomp"
+            ],
+            "narrowerTransitive": [
+                "concept:bovcentrifugaalpomp",
+                "concept:slangenpomp",
+                "concept:vacuumpomp"
+            ],
+            "notation": "zuigpomp",
+            "prefLabel": "Zuigpomp",
+            "semanticRelation": [
+                "concept:bovcentrifugaalpomp",
+                "concept:pomp",
+                "concept:slangenpomp",
+                "concept:vacuumpomp"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "conceptscheme:bemonsteringsinstrument",
+            "type": "skos:ConceptScheme",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.bemonsteringsinstrument",
+            "definition": "Beschrijving welke procedure werd gevolgd bij de bemonstering.",
+            "hasTopConcept": [
+                "concept:ackermangedrukt",
+                "concept:ackermangeslagen",
+                "concept:ackermansteekbus",
+                "concept:aqualock",
+                "concept:aqualockpiston",
+                "concept:avegaarbooras",
+                "concept:balgpomp",
+                "concept:boor",
+                "concept:bovcentrifugaalpomp",
+                "concept:buis",
+                "concept:diamantboor",
+                "concept:dikwandig",
+                "concept:dikwandigepiston",
+                "concept:dikwandiggeslagen",
+                "concept:dompelpomp12v",
+                "concept:dompelpompond",
+                "concept:dubbelwandigekernbuis",
+                "concept:dubkernbuis",
+                "concept:dubkleppomp",
+                "concept:dunwandig",
+                "concept:dunwandigepiston",
+                "concept:dunwandiggedrukt",
+                "concept:dunwandiggeslagen",
+                "concept:edelmanboor",
+                "concept:enkelwandigkernbuis",
+                "concept:enkkernbuis",
+                "concept:geoprobe",
+                "concept:graafmachine",
+                "concept:grijpboor",
+                "concept:hamerboor",
+                "concept:handboor",
+                "concept:holavegaarboorhsas",
+                "concept:holavegaarboorlin",
+                "concept:kerboor",
+                "concept:kopeckysteekset100cm3",
+                "concept:kraan",
+                "concept:lansboor",
+                "concept:lepelboor",
+                "concept:luchthamer",
+                "concept:luchthevel",
+                "concept:perspomp",
+                "concept:piston",
+                "concept:platavegaarboor",
+                "concept:pomp",
+                "concept:pulsboor",
+                "concept:pulsslang",
+                "concept:pvcaangescherpt30mm",
+                "concept:ramguts",
+                "concept:ramgutslin",
+                "concept:ramgutszlin",
+                "concept:ramkernboor",
+                "concept:ring",
+                "concept:riversideboor",
+                "concept:rollenbeitel",
+                "concept:rvsstrooiselkader25cm",
+                "concept:schep",
+                "concept:scheppot",
+                "concept:slagboor",
+                "concept:slangenpomp",
+                "concept:spade",
+                "concept:spiraalboor",
+                "concept:spoelboor",
+                "concept:steekbus",
+                "concept:steekguts20mm",
+                "concept:steekguts25mm",
+                "concept:steekguts30mm",
+                "concept:steekguts",
+                "concept:steekhuls192cm3",
+                "concept:steekhuls",
+                "concept:steenboor",
+                "concept:strooiselkader",
+                "concept:trilboor",
+                "concept:tripkernbuis",
+                "concept:trippelwandigekernbuis",
+                "concept:vacuumpomp",
+                "concept:veenboor",
+                "concept:vibrocore",
+                "concept:waterfles",
+                "concept:watermonsternemer",
+                "concept:watertrap",
+                "concept:zuigboor",
+                "concept:zuigerboor",
+                "concept:zuigpomp"
+            ],
+            "notation": "bemonsteringsinstrument",
+            "note": "Beschrijving welke procedure werd gevolgd bij de bemonstering.",
+            "prefLabel": "Codelijst bemonsteringsinstrument."
+        }
+    ]
 }
