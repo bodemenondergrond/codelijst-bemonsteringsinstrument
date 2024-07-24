@@ -20,3 +20,5 @@ buildNumber.properties
 .classpath
 codelijst-bemonsteringsinstrument.iml
 node_modules/
+src/.env
+src/utils/setenv.js
