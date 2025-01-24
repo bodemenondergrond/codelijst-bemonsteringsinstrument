@@ -95,7 +95,7 @@
             </goals>
           </execution>
         </executions>
-     </plugin>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
@@ -103,32 +103,32 @@
         <configuration>
           <encoding>UTF-8</encoding>
         </configuration>
-	<executions>
+	    <executions>
           <execution>
             <id>1</id>
             <goals>
               <goal>resources</goal>
             </goals>
           </execution>
-	  <execution>
-		<id>copy-resources</id>
-		<phase>validate</phase>
-		<goals>
-		  <goal>copy-resources</goal>
-		</goals>
-		<configuration>
-		  <outputDirectory>${basedir}/target/classes/xsd</outputDirectory>
-			<resources>
-				<resource>
-					<directory>${basedir}/src/main/resources</directory>
-					<includes>
-						<include>**/*.xsd</include>
-					</includes>
-				</resource>
-			</resources>         
-		</configuration>
-	  </execution>
-	</executions>
+	      <execution>
+            <id>copy-resources</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/target/classes/xsd</outputDirectory>
+                <resources>
+                    <resource>
+                        <directory>${basedir}/src/main/resources</directory>
+                        <includes>
+                            <include>**/*.xsd</include>
+                        </includes>
+                    </resource>
+                </resources>         
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
         <plugin>
             <groupId>com.github.eirslett</groupId>
