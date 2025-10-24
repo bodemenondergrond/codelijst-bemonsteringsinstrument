@@ -426,6 +426,7 @@
                 "concept:holavegaarboorhsas",
                 "concept:holavegaarboorlin",
                 "concept:kerboor",
+                "concept:kopeckyring",
                 "concept:kopeckysteekset100cm3",
                 "concept:kraan",
                 "concept:lansboor",
@@ -1158,15 +1159,38 @@
             "topConceptOf": "conceptscheme:bemonsteringsinstrument"
         },
         {
-            "id": "concept:kopeckysteekset100cm3",
+            "id": "concept:kopeckyring",
             "type": "skos:Concept",
-            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.kopeckysteekset100cm3",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.kopeckyring",
             "broader": "concept:ring",
             "broaderTransitive": "concept:ring",
             "inScheme": "conceptscheme:bemonsteringsinstrument",
+            "narrower": "concept:kopeckysteekset100cm3",
+            "narrowerTransitive": "concept:kopeckysteekset100cm3",
+            "notation": "kopeckyring",
+            "prefLabel": "Kopeckyring",
+            "semanticRelation": [
+                "concept:kopeckysteekset100cm3",
+                "concept:ring"
+            ],
+            "topConceptOf": "conceptscheme:bemonsteringsinstrument"
+        },
+        {
+            "id": "concept:kopeckysteekset100cm3",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.kopeckysteekset100cm3",
+            "broader": "concept:kopeckyring",
+            "broaderTransitive": [
+                "concept:kopeckyring",
+                "concept:ring"
+            ],
+            "inScheme": "conceptscheme:bemonsteringsinstrument",
             "notation": "kopeckysteekset100cm3",
             "prefLabel": "Kopecky steekset 100cm3",
-            "semanticRelation": "concept:ring",
+            "semanticRelation": [
+                "concept:kopeckyring",
+                "concept:ring"
+            ],
             "topConceptOf": "conceptscheme:bemonsteringsinstrument"
         },
         {
@@ -1463,11 +1487,17 @@
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ring",
             "inScheme": "conceptscheme:bemonsteringsinstrument",
-            "narrower": "concept:kopeckysteekset100cm3",
-            "narrowerTransitive": "concept:kopeckysteekset100cm3",
+            "narrower": "concept:kopeckyring",
+            "narrowerTransitive": [
+                "concept:kopeckyring",
+                "concept:kopeckysteekset100cm3"
+            ],
             "notation": "ring",
             "prefLabel": "Ring",
-            "semanticRelation": "concept:kopeckysteekset100cm3",
+            "semanticRelation": [
+                "concept:kopeckyring",
+                "concept:kopeckysteekset100cm3"
+            ],
             "topConceptOf": "conceptscheme:bemonsteringsinstrument"
         },
         {
@@ -1958,6 +1988,7 @@
                 "concept:holavegaarboorhsas",
                 "concept:holavegaarboorlin",
                 "concept:kerboor",
+                "concept:kopeckyring",
                 "concept:kopeckysteekset100cm3",
                 "concept:kraan",
                 "concept:lansboor",

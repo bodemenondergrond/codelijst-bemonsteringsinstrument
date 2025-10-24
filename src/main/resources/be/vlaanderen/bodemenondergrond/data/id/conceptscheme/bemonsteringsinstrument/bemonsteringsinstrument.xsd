@@ -36,6 +36,7 @@
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/holavegaarboorhsas" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/holavegaarboorlin" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kerboor" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kopeckyring" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kopeckysteekset100cm3" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/kraan" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/bemonsteringsinstrument/lansboor" />

@@ -57,7 +57,7 @@
 collectie:bemonsteringsinstrumenten dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.bemonsteringsinstrument.bemonsteringsinstrumenten";
     a skos:Collection;
     skos:inScheme conceptscheme:bemonsteringsinstrument;
-    skos:member concept:ackermangedrukt, concept:ackermangeslagen, concept:ackermansteekbus, concept:aqualock, concept:aqualockpiston, concept:avegaarbooras, concept:balgpomp, concept:boor, concept:bovcentrifugaalpomp, concept:buis, concept:diamantboor, concept:dikwandig, concept:dikwandigepiston, concept:dikwandiggeslagen, concept:dompelpomp12v, concept:dompelpompond, concept:dubbelwandigekernbuis, concept:dubkernbuis, concept:dubkleppomp, concept:dunwandig, concept:dunwandigepiston, concept:dunwandiggedrukt, concept:dunwandiggeslagen, concept:edelmanboor, concept:enkelwandigkernbuis, concept:enkkernbuis, concept:geoprobe, concept:graafmachine, concept:grijpboor, concept:hamerboor, concept:handboor, concept:holavegaarboorhsas, concept:holavegaarboorlin, concept:kerboor, concept:kopeckysteekset100cm3, concept:kraan, concept:lansboor, concept:lepelboor, concept:luchthamer, concept:luchthevel, concept:perspomp, concept:piston, concept:platavegaarboor, concept:pomp, concept:pulsboor, concept:pulsslang, concept:pvcaangescherpt30mm, concept:ramguts, concept:ramgutslin, concept:ramgutszlin, concept:ramkernboor, concept:ring, concept:riversideboor, concept:rollenbeitel, concept:rvsstrooiselkader25cm, concept:schep, concept:scheppot, concept:slagboor, concept:slangenpomp, concept:spade, concept:spiraalboor, concept:spoelboor, concept:steekbus, concept:steekguts20mm, concept:steekguts25mm, concept:steekguts30mm, concept:steekguts, concept:steekhuls192cm3, concept:steekhuls, concept:steenboor, concept:strooiselkader, concept:trilboor, concept:tripkernbuis, concept:trippelwandigekernbuis, concept:vacuumpomp, concept:veenboor, concept:vibrocore, concept:waterfles, concept:watermonsternemer, concept:watertrap, concept:zuigboor, concept:zuigerboor, concept:zuigpomp;
+    skos:member concept:ackermangedrukt, concept:ackermangeslagen, concept:ackermansteekbus, concept:aqualock, concept:aqualockpiston, concept:avegaarbooras, concept:balgpomp, concept:boor, concept:bovcentrifugaalpomp, concept:buis, concept:diamantboor, concept:dikwandig, concept:dikwandigepiston, concept:dikwandiggeslagen, concept:dompelpomp12v, concept:dompelpompond, concept:dubbelwandigekernbuis, concept:dubkernbuis, concept:dubkleppomp, concept:dunwandig, concept:dunwandigepiston, concept:dunwandiggedrukt, concept:dunwandiggeslagen, concept:edelmanboor, concept:enkelwandigkernbuis, concept:enkkernbuis, concept:geoprobe, concept:graafmachine, concept:grijpboor, concept:hamerboor, concept:handboor, concept:holavegaarboorhsas, concept:holavegaarboorlin, concept:kerboor, concept:kopeckyring, concept:kopeckysteekset100cm3, concept:kraan, concept:lansboor, concept:lepelboor, concept:luchthamer, concept:luchthevel, concept:perspomp, concept:piston, concept:platavegaarboor, concept:pomp, concept:pulsboor, concept:pulsslang, concept:pvcaangescherpt30mm, concept:ramguts, concept:ramgutslin, concept:ramgutszlin, concept:ramkernboor, concept:ring, concept:riversideboor, concept:rollenbeitel, concept:rvsstrooiselkader25cm, concept:schep, concept:scheppot, concept:slagboor, concept:slangenpomp, concept:spade, concept:spiraalboor, concept:spoelboor, concept:steekbus, concept:steekguts20mm, concept:steekguts25mm, concept:steekguts30mm, concept:steekguts, concept:steekhuls192cm3, concept:steekhuls, concept:steenboor, concept:strooiselkader, concept:trilboor, concept:tripkernbuis, concept:trippelwandigekernbuis, concept:vacuumpomp, concept:veenboor, concept:vibrocore, concept:waterfles, concept:watermonsternemer, concept:watertrap, concept:zuigboor, concept:zuigerboor, concept:zuigpomp;
     skos:notation "bemonsteringsinstrumenten";
     skos:prefLabel "Collectie van bemonsteringsinstrumenten."@nl.
 concept:ackermangedrukt dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ackermangedrukt";
@@ -373,14 +373,25 @@ concept:kerboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.b
     skos:prefLabel "Kernboor"@nl;
     skos:semanticRelation concept:boor, concept:dubkernbuis, concept:enkkernbuis, concept:ramkernboor, concept:tripkernbuis;
     skos:topConceptOf conceptscheme:bemonsteringsinstrument.
-concept:kopeckysteekset100cm3 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.kopeckysteekset100cm3";
+concept:kopeckyring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.kopeckyring";
     a skos:Concept;
     skos:broader concept:ring;
     skos:broaderTransitive concept:ring;
     skos:inScheme conceptscheme:bemonsteringsinstrument;
+    skos:narrower concept:kopeckysteekset100cm3;
+    skos:narrowerTransitive concept:kopeckysteekset100cm3;
+    skos:notation "kopeckyring";
+    skos:prefLabel "Kopeckyring"@nl;
+    skos:semanticRelation concept:kopeckysteekset100cm3, concept:ring;
+    skos:topConceptOf conceptscheme:bemonsteringsinstrument.
+concept:kopeckysteekset100cm3 dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.kopeckysteekset100cm3";
+    a skos:Concept;
+    skos:broader concept:kopeckyring;
+    skos:broaderTransitive concept:kopeckyring, concept:ring;
+    skos:inScheme conceptscheme:bemonsteringsinstrument;
     skos:notation "kopeckysteekset100cm3";
     skos:prefLabel "Kopecky steekset 100cm3"@nl;
-    skos:semanticRelation concept:ring;
+    skos:semanticRelation concept:kopeckyring, concept:ring;
     skos:topConceptOf conceptscheme:bemonsteringsinstrument.
 concept:kraan dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.kraan";
     a skos:Concept;
@@ -535,11 +546,11 @@ concept:ramkernboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conce
 concept:ring dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.ring";
     a skos:Concept;
     skos:inScheme conceptscheme:bemonsteringsinstrument;
-    skos:narrower concept:kopeckysteekset100cm3;
-    skos:narrowerTransitive concept:kopeckysteekset100cm3;
+    skos:narrower concept:kopeckyring;
+    skos:narrowerTransitive concept:kopeckyring, concept:kopeckysteekset100cm3;
     skos:notation "ring";
     skos:prefLabel "Ring"@nl;
-    skos:semanticRelation concept:kopeckysteekset100cm3;
+    skos:semanticRelation concept:kopeckyring, concept:kopeckysteekset100cm3;
     skos:topConceptOf conceptscheme:bemonsteringsinstrument.
 concept:riversideboor dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.bemonsteringsinstrument.riversideboor";
     a skos:Concept;
@@ -819,7 +830,7 @@ concept:zuigpomp dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.
 conceptscheme:bemonsteringsinstrument dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.bemonsteringsinstrument";
     a skos:ConceptScheme;
     skos:definition "Beschrijving welke procedure werd gevolgd bij de bemonstering."@nl;
-    skos:hasTopConcept concept:ackermangedrukt, concept:ackermangeslagen, concept:ackermansteekbus, concept:aqualock, concept:aqualockpiston, concept:avegaarbooras, concept:balgpomp, concept:boor, concept:bovcentrifugaalpomp, concept:buis, concept:diamantboor, concept:dikwandig, concept:dikwandigepiston, concept:dikwandiggeslagen, concept:dompelpomp12v, concept:dompelpompond, concept:dubbelwandigekernbuis, concept:dubkernbuis, concept:dubkleppomp, concept:dunwandig, concept:dunwandigepiston, concept:dunwandiggedrukt, concept:dunwandiggeslagen, concept:edelmanboor, concept:enkelwandigkernbuis, concept:enkkernbuis, concept:geoprobe, concept:graafmachine, concept:grijpboor, concept:hamerboor, concept:handboor, concept:holavegaarboorhsas, concept:holavegaarboorlin, concept:kerboor, concept:kopeckysteekset100cm3, concept:kraan, concept:lansboor, concept:lepelboor, concept:luchthamer, concept:luchthevel, concept:perspomp, concept:piston, concept:platavegaarboor, concept:pomp, concept:pulsboor, concept:pulsslang, concept:pvcaangescherpt30mm, concept:ramguts, concept:ramgutslin, concept:ramgutszlin, concept:ramkernboor, concept:ring, concept:riversideboor, concept:rollenbeitel, concept:rvsstrooiselkader25cm, concept:schep, concept:scheppot, concept:slagboor, concept:slangenpomp, concept:spade, concept:spiraalboor, concept:spoelboor, concept:steekbus, concept:steekguts20mm, concept:steekguts25mm, concept:steekguts30mm, concept:steekguts, concept:steekhuls192cm3, concept:steekhuls, concept:steenboor, concept:strooiselkader, concept:trilboor, concept:tripkernbuis, concept:trippelwandigekernbuis, concept:vacuumpomp, concept:veenboor, concept:vibrocore, concept:waterfles, concept:watermonsternemer, concept:watertrap, concept:zuigboor, concept:zuigerboor, concept:zuigpomp;
+    skos:hasTopConcept concept:ackermangedrukt, concept:ackermangeslagen, concept:ackermansteekbus, concept:aqualock, concept:aqualockpiston, concept:avegaarbooras, concept:balgpomp, concept:boor, concept:bovcentrifugaalpomp, concept:buis, concept:diamantboor, concept:dikwandig, concept:dikwandigepiston, concept:dikwandiggeslagen, concept:dompelpomp12v, concept:dompelpompond, concept:dubbelwandigekernbuis, concept:dubkernbuis, concept:dubkleppomp, concept:dunwandig, concept:dunwandigepiston, concept:dunwandiggedrukt, concept:dunwandiggeslagen, concept:edelmanboor, concept:enkelwandigkernbuis, concept:enkkernbuis, concept:geoprobe, concept:graafmachine, concept:grijpboor, concept:hamerboor, concept:handboor, concept:holavegaarboorhsas, concept:holavegaarboorlin, concept:kerboor, concept:kopeckyring, concept:kopeckysteekset100cm3, concept:kraan, concept:lansboor, concept:lepelboor, concept:luchthamer, concept:luchthevel, concept:perspomp, concept:piston, concept:platavegaarboor, concept:pomp, concept:pulsboor, concept:pulsslang, concept:pvcaangescherpt30mm, concept:ramguts, concept:ramgutslin, concept:ramgutszlin, concept:ramkernboor, concept:ring, concept:riversideboor, concept:rollenbeitel, concept:rvsstrooiselkader25cm, concept:schep, concept:scheppot, concept:slagboor, concept:slangenpomp, concept:spade, concept:spiraalboor, concept:spoelboor, concept:steekbus, concept:steekguts20mm, concept:steekguts25mm, concept:steekguts30mm, concept:steekguts, concept:steekhuls192cm3, concept:steekhuls, concept:steenboor, concept:strooiselkader, concept:trilboor, concept:tripkernbuis, concept:trippelwandigekernbuis, concept:vacuumpomp, concept:veenboor, concept:vibrocore, concept:waterfles, concept:watermonsternemer, concept:watertrap, concept:zuigboor, concept:zuigerboor, concept:zuigpomp;
     skos:notation "bemonsteringsinstrument";
     skos:note "Beschrijving welke procedure werd gevolgd bij de bemonstering."@nl;
     skos:prefLabel "Codelijst bemonsteringsinstrument."@nl.
